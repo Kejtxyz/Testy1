@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'Testy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+// dodanie junit
+dependencies {
+  //  testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1 '   // robimy zagnieżdzenie z ktorego chcemyu skorzystac
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.5.0-M1'  // junit silnik
+}
