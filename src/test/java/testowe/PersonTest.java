@@ -121,6 +121,15 @@ public class PersonTest {
     }
         // sprawdzenie -- wyjatek
 
+        @Test
+    void personShouldNotEarnMinusMoney(){
+        person.earn(100);
+         Exception exception = assertThrows(MinusMoneyException.class,() -> {
+            person.earn(-100);
+        });
+        assertEquals("No minus money", exception.getMessage()); // zarobki nie moga byc ujemne
+        }
+
 
     }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
