@@ -1,18 +1,30 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PersonTest {
+
+    Person person;
+    Person spouse;
+
+    @BeforeEach
+    void setUp(){
+        // np, obiekty
+        // przed kazdym testem bedzie tworozny obiekt person
+        person = new Person("Jan Kowalski");
+        spouse = new Person("Alicja Nowak");
+    }
+
     @Test
     void constructorShouldSetName() {
-        Person person = new Person("Jan Kowalski");
+
 
         assertEquals("Jan Kowalski", person.getName()); // oczewikana wartosc , i meotde pobierana
     }
 
     @Test
     void personShouldHaveChild() {
-        Person person = new Person("Jan Kowalski");
         Person child = new Person("Adam Kowalski");
 
         person.addChild(child);
@@ -22,8 +34,7 @@ public class PersonTest {
 
     @Test
     void personShouldHaveSpouse() {
-        Person person = new Person("Jan Kowalski");
-        Person spouse = new Person("Alicja Nowak");
+
         Person lover = new Person("Bartek K");
 
         person.marriage(spouse);
@@ -35,8 +46,7 @@ public class PersonTest {
 
     @Test
     void spouseShouldHaveSpouse() {
-        Person person = new Person("Jan Kowalski");
-        Person spouse = new Person("Alicja Nowak");
+
 
         person.marriage(spouse);  //// czy nasz adroga polowka tez ma nas??//// kolejny test//// ta droga osoba powinna miec pierwsza osobe
         assertEquals(person, spouse.getSpouse());
@@ -44,8 +54,7 @@ public class PersonTest {
 
     @Test
     void loverShouldNotMarriageMarriedPerson(){  // kochanek nie powiennien wziasc slubu z osoba po slubie
-        Person person = new Person(" Jan Kowalski ");
-        Person spouse = new Person(" Alicja Nowak ");
+
         Person lover = new Person(" Bartek K ");
 
         person.marriage(spouse); // jan wzial slub z alicja
@@ -61,8 +70,7 @@ public class PersonTest {
     }
     @Test // czy osoby sa po slubie ze soba
     void personShouldNotBeMarriedWithAnotherOne(){
-        Person person = new Person("Jan Kowalski");
-        Person spouse = new Person("Alicja Nowak");
+
 
         person.marriage(spouse);
 
@@ -71,8 +79,7 @@ public class PersonTest {
 
     @Test   // czy ta 3 osoba kogos nie ma
     void personShouldBeMarriedWithAnotherOne(){
-        Person person = new Person(" Jan Kowalski ");
-        Person spouse = new Person(" Alicja Nowak ");
+
         Person lover = new Person(" Bartek K ");
 
         person.marriage(spouse);
@@ -82,8 +89,6 @@ public class PersonTest {
 
     @Test
     void personShouldNotHaveSpouseAfterDivorce(){
-        Person person = new Person("Jan Kowalski");
-        Person spouse = new Person("Alicja Nowak");
 
         person.marriage(spouse);
         person.divorce();
@@ -94,8 +99,8 @@ public class PersonTest {
     @Test
     void spouseShouldNotHaveSpouseAfterDivorce() {
         // Arrange // Given
-        Person person = new Person("Jan Kowalski");
-        Person spouse = new Person("Alicja Nowak");
+    //    Person person = new Person("Jan Kowalski");
+    //    Person spouse = new Person("Alicja Nowak");
         // Act // When
         person.marriage(spouse);
         person.divorce();

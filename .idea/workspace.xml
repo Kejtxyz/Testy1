@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+            <state relative-caret-position="2205">
+              <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553102117948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553103033617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553102064931</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testy1 &#10;zmiany 6&#10;dodanie Arrange,Act, Assert,&#10;zajecia2">
+      <created>1553102713539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553102713539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,7 +426,8 @@
     <MESSAGE value="testy1 &#10;zmiany 3 &#10;zajecia2" />
     <MESSAGE value="testy1 &#10;zmiany 4&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;zmiany 5&#10; zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;zmiany 5&#10; zajecia2" />
+    <MESSAGE value="testy1 &#10;zmiany 6&#10;dodanie Arrange,Act, Assert,&#10;zajecia2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;zmiany 6&#10;dodanie Arrange,Act, Assert,&#10;zajecia2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -461,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        <state relative-caret-position="2205">
+          <caret line="105" column="25" lean-forward="true" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
