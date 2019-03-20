@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;zmiany 1 zajecia2">
+    <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1 poprawione&#10;zmiany 2 zajecia2">
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -48,8 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PersonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="460">
+              <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +120,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="376">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553101258818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553101348422" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,16 +315,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553100970632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true">
+      <created>1553101323232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553101323232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_loverShouldNotMarriageMarriedPerson - 2019.03.19 at 20h 07m 26s.xml">
-      <configuration name="PersonTest.loverShouldNotMarriageMarriedPerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_personShouldNotBeMarriedWithAnotherOne - 2019.03.19 at 20h 07m 35s.xml">
-      <configuration name="PersonTest.personShouldNotBeMarriedWithAnotherOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_personShouldBeMarriedWithAnotherOne - 2019.03.19 at 20h 09m 20s.xml">
       <configuration name="PersonTest.personShouldBeMarriedWithAnotherOne" configurationId="JUnit" />
     </history-entry>
@@ -346,9 +350,16 @@
     <history-entry file="PersonTest - 2019.03.20 at 17h 57m 25s.xml">
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 18h 00m 15s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 18h 01m 03s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15359898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,7 +395,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testy1" />
     <MESSAGE value="testy1&#10;zmiany 1 zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;zmiany 1 zajecia2" />
+    <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2" />
+    <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -416,15 +429,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="376">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="460">
+          <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

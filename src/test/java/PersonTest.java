@@ -80,9 +80,32 @@ public class PersonTest {
         assertTrue(person.isMarriedWithAnotherPerson(lover)); // sprawdzamy czy jan jest z inna osoba niz bartek
     }
 
+    @Test
+    void personShouldNotHaveSpouseAfterDivorce(){
+        Person person = new Person("Jan Kowalski");
+        Person spouse = new Person("Alicja Nowak");
+
+        person.marriage(spouse);
+        person.divorce();
+
+        assertNull(person.getSpouse());
+    }
+
+    @Test
+    void spouseShouldNotHaveSpouseAfterDivorce() {
+        Person person = new Person("Jan Kowalski");
+        Person spouse = new Person("Alicja Nowak");
+
+        person.marriage(spouse);
+        person.divorce();
+
+        assertNull(spouse.getSpouse());
+
+    }
 
 
-}
+    
+    }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
 
 

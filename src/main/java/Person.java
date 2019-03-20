@@ -33,6 +33,11 @@ public class Person {
             spouse.marriage(this);
         }
     }
+
+    public void divorce(){
+        this.spouse = null;
+    }
+
     // metoda pomocnicza
 // czy jest z inna osoba?
     public boolean isMarriedWithAnotherPerson(Person personToCheck) {
