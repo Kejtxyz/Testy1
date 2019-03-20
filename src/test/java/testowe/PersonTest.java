@@ -152,7 +152,25 @@ public class PersonTest {
         assertTrue(true);
         }
 
+        // testy sprawdzajace
+    @Test
+    void emailShouldBeValid1(){
+        person.setEmail("jan.kowalski@szkolenie.pl");
 
+        assertTrue(person.isEmailValid());  // powinno zwrocic true
+    }
+    @Test
+    void emailShouldBeValid2(){
+        person.setEmail("jan@szkolenie.pl");
+
+        assertTrue(person.isEmailValid());  // powinno zwrocic true
+    }
+    @Test
+    void emailShouldBeValid3(){
+        person.setEmail("jaszkolenie.pl");
+
+        assertFalse(person.isEmailValid());  // powinno zwrocic false
+    }
     }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
 

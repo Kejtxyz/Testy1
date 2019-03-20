@@ -2,19 +2,40 @@ package testowe;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class Person {
     private String name;
     private Person spouse;  // spouse - małżonek
     private List<Person> children = new ArrayList<>();
 
+
+
     private int money;  // osoba bedzie zarabiac, nastepnie dodatemy getter
+
+    private String email; // tworzymy email osobie person ..// towrymy setter i getter
+
+    private String regex = "^(.+)@.(.+)$";  // ( - czego sie tyczy ^-poczatkowy wyraz   $co jest pod nim (.+)sprawdza czy jest jaki kolwiek znak   @czy jest miedzy wyrazami
+    Pattern pattern = Pattern.compile(regex);  // sprawdza czy pasuje pod nasz wzor , regex = wyrazenie regularne
+
+    // ALT + Insert //
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
 
 
     public Person(String name) {
         this.name = name;
         // przypisujemy konstruktor od zmiennej lokalnej
     }
+
+
 
     public String getName() {
         return name;
@@ -84,6 +105,9 @@ public class Person {
          exception.printStackTrace(); // nastepnie do tego dopisujemy test
      }
 
+    }
+    public boolean isEmailValid(){
+        return pattern.matcher(email).matches();  // matches - sprawdza czy email jest zgodny z wyrazeniem regularnym, czy bedzie jakis znak na poacztku,czy bedzie malpa@
     }
 
 
