@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 public class PersonTest {
 
@@ -140,6 +141,17 @@ public class PersonTest {
         // sprawdzamy jak dlugo bedzie wykonywana metoda przy wiekszej sumie
         assertEquals(300, person.getMoney());
         }
+
+        @Test
+        // uzywamy gdy chcemy dac warunki
+        void testSomethingWithAssume(){
+        System.setProperty("ENV", "PROD");
+        // test moze sie wykonac dopiero w srodowisku produkcyjnym
+        assumeTrue(System.getProperty("ENV").equals("PROD"));
+        // ALT + ENTER - import //
+        assertTrue(true);
+        }
+
 
     }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana

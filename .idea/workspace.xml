@@ -48,7 +48,6 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testowe/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testowe/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+            <state relative-caret-position="158">
+              <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553105667032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553106341150" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -269,16 +268,6 @@
       <option name="PACKAGE_NAME" value="testowe" />
       <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.loverShouldNotMarriageMarriedPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="loverShouldNotMarriageMarriedPerson" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,13 +308,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.testSomethingWithAssume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe" />
+      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
+      <option name="METHOD_NAME" value="testSomethingWithAssume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonTest.testSomethingWithAssume" />
         <item itemvalue="JUnit.PersonTest.personShouldEarnMoneyAfterWork" />
         <item itemvalue="JUnit.PersonTest.personShouldBeMarriedWithAnotherOne" />
         <item itemvalue="JUnit.PersonTest.personShouldNotBeMarriedWithAnotherOne" />
-        <item itemvalue="JUnit.PersonTest.loverShouldNotMarriageMarriedPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -417,25 +422,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553104697399</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="testy1 &#10;test wydajnosciowy - mierzacy czas wykonywania metody&#10;zmiany 9&#10; zajecia2">
+      <created>1553105712408</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553105712408</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest - 2019.03.20 at 18h 32m 19s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 18h 36m 16s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 18h 43m 32s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 18h 45m 33s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 18h 52m 51s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest - 2019.03.20 at 18h 53m 26s.xml">
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
@@ -451,6 +448,21 @@
     <history-entry file="PersonTest_personShouldEarnMoneyAfterWork - 2019.03.20 at 19h 10m 19s.xml">
       <configuration name="PersonTest.personShouldEarnMoneyAfterWork" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest_personShouldEarnMoneyAfterWork - 2019.03.20 at 19h 12m 11s.xml">
+      <configuration name="PersonTest.personShouldEarnMoneyAfterWork" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 19h 14m 05s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_personShouldEarnMoneyAfterWork - 2019.03.20 at 19h 14m 15s.xml">
+      <configuration name="PersonTest.personShouldEarnMoneyAfterWork" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 19h 14m 31s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 19h 21m 53s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -465,7 +477,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22983871" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38172042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,7 +512,8 @@
     <MESSAGE value="testy1 &#10;Refactor codu&#10;Stworznie pakietów&#10;przeniesienie do innych pakietow&#10;zmiany 7&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;wprowadzone sprawdzenie minusowych piniedzy&#10;stworzenie wyjatku&#10;zmiany 8&#10;zajecia2" />
     <MESSAGE value="testy1&#10;dodanie metody exception&#10;zmiany 9&#10;zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;dodanie metody exception&#10;zmiany 9&#10;zajecia2" />
+    <MESSAGE value="testy1 &#10;test wydajnosciowy - mierzacy czas wykonywania metody&#10;zmiany 9&#10; zajecia2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;test wydajnosciowy - mierzacy czas wykonywania metody&#10;zmiany 9&#10; zajecia2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -555,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+        <state relative-caret-position="158">
+          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
