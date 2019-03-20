@@ -34,7 +34,7 @@ public class Person {
         }
     }
 
-    public void divorce(){  // rekurencja
+    public void divorce(){  // rekurencja - odwolywanie funkcji do samej siebie
         Person ex = this.spouse;   // byly(A)
         this.spouse = null;
 
