@@ -104,6 +104,22 @@ public class PersonTest {
 
     }
 
+    @Test
+    void personShouldEarnSomeMoney(){  // zarabia pieniadze pierwszy raz
+        person.earn(1000);
+
+        assertEquals(1000, person.getMoney());
+
+    }
+
+    @Test
+    void personShouldEarnMuchMoney(){  // zarabia pieniadze kolejny raz
+        person.earn(1000);
+        person.earn(500);
+
+        assertEquals(1500,person.getMoney());
+    }
+        // sprawdzenie -- wyjatek
 
 
     }

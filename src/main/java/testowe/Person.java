@@ -8,6 +8,9 @@ public class Person {
     private Person spouse;  // spouse - małżonek
     private List<Person> children = new ArrayList<>();
 
+    private int money;  // osoba bedzie zarabiac, nastepnie dodatemy getter
+
+
     public Person(String name) {
         this.name = name;
         // przypisujemy konstruktor od zmiennej lokalnej
@@ -19,6 +22,10 @@ public class Person {
 
     public Person getSpouse() {
         return spouse;
+    }
+
+    public int getMoney(){  // pobieranie geeter , piniedzy
+        return money;
     }
 
     public List<Person> getChildren() {
@@ -36,11 +43,11 @@ public class Person {
         }
     }
 
-    public void divorce(){  // rekurencja - odwolywanie funkcji do samej siebie
+    public void divorce() {  // rekurencja - odwolywanie funkcji do samej siebie
         Person ex = this.spouse;   // byly(A)
         this.spouse = null;
 
-        if (ex.getSpouse()  != null){
+        if (ex.getSpouse() != null) {
             ex.divorce();
         }
     }
@@ -51,12 +58,21 @@ public class Person {
         if (spouse == null) {
             return false;
         } // czy osoby sa sobie rowne??
-        if(!spouse.equals(personToCheck)){
+        if (!spouse.equals(personToCheck)) {
             return true;  // jezeli sa razem
-        }else {
+        } else {
             return false;
         } // jezeli nie sa rowni ,ta sa w innym zwiazku
-        }
     }
 
+
+    public void earn(int cash) {
+        // sprawdzenie, nie mozna zarobic ujemnych pieniedzy
+        if (cash < 0){
+            throw new MinusMoneyException("No minus money");
+        }
+        //   money = money + cash;
+        money += cash;
+    }
+}
 // CTRL + L   - UKLADA KOD
