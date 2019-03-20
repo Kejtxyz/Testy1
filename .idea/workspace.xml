@@ -47,10 +47,7 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
@@ -110,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+            <state relative-caret-position="213">
+              <caret line="197" column="48" lean-forward="true" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553108423561" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553109028425" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -278,28 +275,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest">
+  <component name="RunManager" selected="JUnit.PersonTest.emailsShouldByValidByMethodSource">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <option name="PACKAGE_NAME" value="testowe" />
       <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.emailShouldBeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="emailShouldBeValid" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +317,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.emailsShouldByValidByMethodSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe" />
+      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
+      <option name="METHOD_NAME" value="emailsShouldByValidByMethodSource(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.emailsShouldNotBeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -354,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.emailsShouldByValidByMethodSource" />
         <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.PersonTest.emailsShouldNotBeValid" />
         <item itemvalue="JUnit.PersonTest.emailsShouldBeValid" />
         <item itemvalue="JUnit.PersonTest.emailShouldBeValid3" />
-        <item itemvalue="JUnit.PersonTest.emailShouldBeValid" />
       </list>
     </recent_temporary>
   </component>
@@ -471,25 +468,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553107539568</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2">
+      <created>1553108521100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553108521100</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_personShouldEarnMoneyAfterWork - 2019.03.20 at 19h 14m 15s.xml">
-      <configuration name="PersonTest.personShouldEarnMoneyAfterWork" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 19h 14m 31s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 19h 21m 53s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_testSomethingWithAssume - 2019.03.20 at 19h 25m 35s.xml">
-      <configuration name="PersonTest.testSomethingWithAssume" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 19h 25m 46s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_emailShouldBeValid - 2019.03.20 at 19h 41m 08s.xml">
       <configuration name="PersonTest.emailShouldBeValid" configurationId="JUnit" />
     </history-entry>
@@ -505,6 +494,21 @@
     <history-entry file="PersonTest_emailsShouldBeValid - 2019.03.20 at 19h 56m 42s.xml">
       <configuration name="PersonTest.emailsShouldBeValid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest_emailsShouldNotBeValid - 2019.03.20 at 19h 58m 51s.xml">
+      <configuration name="PersonTest.emailsShouldNotBeValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_emailsShouldNotBeValid - 2019.03.20 at 19h 59m 32s.xml">
+      <configuration name="PersonTest.emailsShouldNotBeValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 19h 59m 44s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 20h 08m 42s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_emailsShouldByValidByMethodSource - 2019.03.20 at 20h 10m 36s.xml">
+      <configuration name="PersonTest.emailsShouldByValidByMethodSource" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -519,7 +523,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28494623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24193548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,7 +561,8 @@
     <MESSAGE value="testy1 &#10;test wydajnosciowy - mierzacy czas wykonywania metody&#10;zmiany 9&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;assume - warunki&#10;&#10;zmiany 10&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;dodanie email do person&#10;testy sprawdzajace&#10;regex&#10;pattern&#10;matches&#10;zmiany kolejne&#10; zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;dodanie email do person&#10;testy sprawdzajace&#10;regex&#10;pattern&#10;matches&#10;zmiany kolejne&#10; zajecia2" />
+    <MESSAGE value="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -616,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="187" column="51" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+        <state relative-caret-position="213">
+          <caret line="197" column="48" lean-forward="true" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

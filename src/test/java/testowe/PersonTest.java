@@ -3,9 +3,11 @@ package testowe;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.time.Duration;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
@@ -193,6 +195,18 @@ public class PersonTest {
 
     }
 
+    // test parametryzowany z metoda fabrykujaca
+    @ParameterizedTest
+    @MethodSource(value = "provideValidEmails" )
+    void emailsShouldByValidByMethodSource(String email){
+        person.setEmail(email);
+
+        assertTrue(person.isEmailValid());   // ma zwrocic true
+    }
+    // oczekiwanie co zwroci,co ma sprawdzic
+    static Stream provideValidEmails(){
+        return Stream.of("jan.kowalski@szkolenie.pl","jan@szkolenie.pl","jakie@szkolenie.pl");
+    }
 
 
 
