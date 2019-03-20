@@ -74,5 +74,18 @@ public class Person {
         //   money = money + cash;
         money += cash;
     }
+    // jak dlugo pracuje
+    // ile pieniedzy otrzyma za wykonana prace
+    public void work(long time, int cash) {
+     try{
+        Thread.sleep(time);
+        earn(cash);
+    }catch (InterruptedException exception){ // nazwa zmiennej e moze byc inna e - jest domyslnie e  to samo co exception, nazwa tylko
+         exception.printStackTrace(); // nastepnie do tego dopisujemy test
+     }
+
+    }
+
+
 }
 // CTRL + L   - UKLADA KOD

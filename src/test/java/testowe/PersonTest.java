@@ -3,6 +3,8 @@ package testowe;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PersonTest {
@@ -130,6 +132,14 @@ public class PersonTest {
         assertEquals("No minus money", exception.getMessage()); // zarobki nie moga byc ujemne
         }
 
+        @Test
+    void personShouldEarnMoneyAfterWork(){
+       assertTimeout(Duration.ofMillis(1000), () -> {     // assertTimeoutPreemptively- jesli wykonuje sie za dlugo to konczy,ucina
+           person.work(100, 300);          //zwykly assertTimeout metoda czeka do zakonczenia wykonywania metody, i metoda timeout powie o ile czasu za dlugo wykonywala sie metoda,
+       });
+        // sprawdzamy jak dlugo bedzie wykonywana metoda przy wiekszej sumie
+        assertEquals(300, person.getMoney());
+        }
 
     }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
