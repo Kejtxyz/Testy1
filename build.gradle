@@ -15,4 +15,5 @@ dependencies {
   //  testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1 '   // robimy zagnieżdzenie z ktorego chcemyu skorzystac
     testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.5.0-M1'  // junit silnik
+    testCompile 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'  // biblioteki do testow parametryzowanych
 }

@@ -2,6 +2,8 @@ package testowe;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.time.Duration;
 
@@ -152,7 +154,7 @@ public class PersonTest {
         assertTrue(true);
         }
 
-        // testy sprawdzajace
+        // testy sprawdzajace - mozna usunac -zrobic refaktor - testy parametryzowane sprawdzja to samo
     @Test
     void emailShouldBeValid1(){
         person.setEmail("jan.kowalski@szkolenie.pl");
@@ -171,8 +173,31 @@ public class PersonTest {
 
         assertFalse(person.isEmailValid());  // powinno zwrocic false
     }
+
+
+    @ParameterizedTest  // przekazujemy tylko prawidlowe testy , // testy poprzednie emaili sa zbedne,mozna usunac,bo ten tez sprawdza emaile
+    @ValueSource(strings = {"jan.kowalski@szkolenie.pl","jan@szkolenie.pl","jakie@szkolenie.pl","@jakszolenie.pl" })  // kazda wartosc bedzie wpadala jako argument email, test zostanie uruchomiony tyle razy ile jest przypadkow
+    void emailsShouldBeValid(String email){
+        person.setEmail(email);
+
+        assertTrue(person.isEmailValid());
+
     }
-// jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
+
+    @ParameterizedTest  // przekazujemy tylko prawidlowe testy , // testy poprzednie emaili sa zbedne,mozna usunac,bo ten tez sprawdza emaile
+    @ValueSource(strings = {"@szkolenie.pl","jan.I.szkolenie.pl","@szkolenie.pl","@jakszolenie.pl" })  // kazda wartosc bedzie wpadala jako argument email, test zostanie uruchomiony tyle razy ile jest przypadkow
+    void emailsShouldNotBeValid(String email){
+        person.setEmail(email);
+
+        assertFalse(person.isEmailValid());
+
+    }
+
+
+
+
+    }
+
 
 
 
