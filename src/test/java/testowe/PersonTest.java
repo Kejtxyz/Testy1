@@ -1,26 +1,21 @@
-import org.junit.jupiter.api.BeforeEach;
+package testowe;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PersonTest {
 
-    Person person;
-    Person spouse;
+     Person person = new Person("Jan Kowalski");
+     Person spouse = new Person("Alicja Nowak");
 
-    @BeforeEach
-    void setUp(){
-        // np, obiekty
-        // przed kazdym testem bedzie tworozny obiekt person
-        person = new Person("Jan Kowalski");
-        spouse = new Person("Alicja Nowak");
-    }
 
     @Test
     void constructorShouldSetName() {
 
 
-        assertEquals("Jan Kowalski", person.getName()); // oczewikana wartosc , i meotde pobierana
+        Assertions.assertEquals("Jan Kowalski", person.getName()); // oczewikana wartosc , i meotde pobierana
     }
 
     @Test
@@ -29,7 +24,7 @@ public class PersonTest {
 
         person.addChild(child);
         assertNotNull(person.getChildren());
-        assertEquals(1, person.getChildren().size()); // czy lista jest dlugosci 1 ??// // kolejny sprawdzjacy test// // oczekujue ze lista ma dlugosc 1
+        Assertions.assertEquals(1, person.getChildren().size()); // czy lista jest dlugosci 1 ??// // kolejny sprawdzjacy test// // oczekujue ze lista ma dlugosc 1
     }
 
     @Test
@@ -40,7 +35,7 @@ public class PersonTest {
         person.marriage(spouse);
         person.marriage(lover);
 
-        assertNotNull(person.getSpouse(), "Mezem jana kowalskiekgo powinna byc alicja Nowak" +
+        Assertions.assertNotNull(person.getSpouse(), "Mezem jana kowalskiekgo powinna byc alicja Nowak" +
                 ",a obecnie jest Bartek K" + person.getSpouse().getName());
     }
 
@@ -49,7 +44,7 @@ public class PersonTest {
 
 
         person.marriage(spouse);  //// czy nasz adroga polowka tez ma nas??//// kolejny test//// ta droga osoba powinna miec pierwsza osobe
-        assertEquals(person, spouse.getSpouse());
+        Assertions.assertEquals(person, spouse.getSpouse());
     }
 
     @Test
@@ -61,9 +56,9 @@ public class PersonTest {
         lover.marriage(person);
         // sprawdzamy
         assertAll(
-                () -> assertNull(lover.getSpouse(), lover.getName()+
+                () -> Assertions.assertNull(lover.getSpouse(), lover.getName()+
                         "jest  w zwiazku z" ),
-                () -> assertEquals(spouse, person.getSpouse())
+                () -> Assertions.assertEquals(spouse, person.getSpouse())
         );
       //  assertNull(lover.getSpouse());
       //  assertEquals(spouse, person.getSpouse());  // sprawdzamy ,jan kowlaski za zone powinnien miec ciagle alicje nowak
@@ -74,7 +69,7 @@ public class PersonTest {
 
         person.marriage(spouse);
 
-        assertFalse(person.isMarriedWithAnotherPerson(spouse));   // sprawdzamy czy wszystko w ziwazku jest ok?
+        Assertions.assertFalse(person.isMarriedWithAnotherPerson(spouse));   // sprawdzamy czy wszystko w ziwazku jest ok?
     }
 
     @Test   // czy ta 3 osoba kogos nie ma
@@ -84,7 +79,7 @@ public class PersonTest {
 
         person.marriage(spouse);
 
-        assertTrue(person.isMarriedWithAnotherPerson(lover)); // sprawdzamy czy jan jest z inna osoba niz bartek
+        Assertions.assertTrue(person.isMarriedWithAnotherPerson(lover)); // sprawdzamy czy jan jest z inna osoba niz bartek
     }
 
     @Test
@@ -99,8 +94,8 @@ public class PersonTest {
     @Test
     void spouseShouldNotHaveSpouseAfterDivorce() {
         // Arrange // Given
-    //    Person person = new Person("Jan Kowalski");
-    //    Person spouse = new Person("Alicja Nowak");
+    //    testowe.Person person = new testowe.Person("Jan Kowalski");
+    //    testowe.Person spouse = new testowe.Person("Alicja Nowak");
         // Act // When
         person.marriage(spouse);
         person.divorce();
