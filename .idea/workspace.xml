@@ -48,9 +48,6 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
@@ -107,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="230">
+              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="418">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +146,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -212,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553102044317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553102117948" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -330,13 +327,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553101665718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testy1 &#10;zmiany 4&#10;zajecia2">
+      <created>1553101923869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553101923869</updated>
+    </task>
+    <task id="LOCAL-00006" summary="testy1 &#10;zmiany 5&#10; zajecia2">
+      <created>1553102064931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553102064931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_personShouldBeMarriedWithAnotherOne - 2019.03.19 at 20h 15m 51s.xml">
-      <configuration name="PersonTest.personShouldBeMarriedWithAnotherOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_personShouldBeMarriedWithAnotherOne - 2019.03.19 at 20h 16m 35s.xml">
       <configuration name="PersonTest.personShouldBeMarriedWithAnotherOne" configurationId="JUnit" />
     </history-entry>
@@ -362,6 +370,9 @@
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PersonTest - 2019.03.20 at 18h 11m 15s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.20 at 18h 14m 08s.xml">
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -406,7 +417,9 @@
     <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2" />
     <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true" />
     <MESSAGE value="testy1 &#10;zmiany 3 &#10;zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;zmiany 3 &#10;zajecia2" />
+    <MESSAGE value="testy1 &#10;zmiany 4&#10;zajecia2" />
+    <MESSAGE value="testy1 &#10;zmiany 5&#10; zajecia2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;zmiany 5&#10; zajecia2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -436,20 +449,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="418">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="230">
+          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

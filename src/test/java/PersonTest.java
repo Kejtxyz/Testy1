@@ -93,12 +93,13 @@ public class PersonTest {
 
     @Test
     void spouseShouldNotHaveSpouseAfterDivorce() {
+        // Arrange // Given
         Person person = new Person("Jan Kowalski");
         Person spouse = new Person("Alicja Nowak");
-
+        // Act // When
         person.marriage(spouse);
         person.divorce();
-
+        // Assert // Then
         assertNull(spouse.getSpouse());
 
     }
