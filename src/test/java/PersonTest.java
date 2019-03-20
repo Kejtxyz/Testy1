@@ -53,7 +53,7 @@ public class PersonTest {
         // sprawdzamy
         assertAll(
                 () -> assertNull(lover.getSpouse(), lover.getName()+
-                        "jest  w zwiazku z" + lover.getSpouse().getName()),
+                        "jest  w zwiazku z" ),
                 () -> assertEquals(spouse, person.getSpouse())
         );
       //  assertNull(lover.getSpouse());
@@ -77,7 +77,7 @@ public class PersonTest {
 
         person.marriage(spouse);
 
-        assertTrue(lover.isMarriedWithAnotherPerson(person)); // sprawdzamy czy bartek jest z inna osoba
+        assertTrue(person.isMarriedWithAnotherPerson(lover)); // sprawdzamy czy jan jest z inna osoba niz bartek
     }
 
 
