@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Person {
     private String name;
-    private Person spouse;
+    private Person spouse;  // spouse - małżonek
     private List<Person> children = new ArrayList<>();
 
     public Person(String name) {
@@ -37,12 +37,12 @@ public class Person {
 // czy jest z inna osoba?
     public boolean isMarriedWithAnotherPerson(Person personToCheck) {
         if (spouse == null) {
-            return true;
+            return false;
         } // czy osoby sa sobie rowne??
-        if(personToCheck.getSpouse().equals(this)){
-            return false;  // jezeli sa rowni
+        if(!spouse.equals(personToCheck)){
+            return true;  // jezeli sa razem
         }else {
-            return true;
+            return false;
         } // jezeli nie sa rowni ,ta sa w innym zwiazku
         }
     }

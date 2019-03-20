@@ -43,7 +43,7 @@ public class PersonTest {
     }
 
     @Test
-    void loverShouldNotMarriageMarriedPerson(){
+    void loverShouldNotMarriageMarriedPerson(){  // kochanek nie powiennien wziasc slubu z osoba po slubie
         Person person = new Person(" Jan Kowalski ");
         Person spouse = new Person(" Alicja Nowak ");
         Person lover = new Person(" Bartek K ");
@@ -85,5 +85,5 @@ public class PersonTest {
 }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
 
-// poprawic ostatni test // w domu //
+
 
