@@ -34,8 +34,13 @@ public class Person {
         }
     }
 
-    public void divorce(){
+    public void divorce(){  // rekurencja
+        Person ex = this.spouse;   // byly(A)
         this.spouse = null;
+
+        if (ex.getSpouse()  != null){
+            ex.divorce();
+        }
     }
 
     // metoda pomocnicza

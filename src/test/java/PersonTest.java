@@ -104,7 +104,7 @@ public class PersonTest {
     }
 
 
-    
+
     }
 // jezeli pierwsza nie przjedzie droga zostanie automatycznie zatrzymana
 
