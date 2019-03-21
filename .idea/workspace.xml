@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -51,11 +47,9 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
@@ -135,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
@@ -154,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="372">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Mockito/AnimalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" />
       </list>
     </option>
@@ -295,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553195699444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553196343741" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalTest">
+  <component name="RunManager" selected="JUnit.AnimalTest.testHunger">
     <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -330,33 +324,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringTest.shouldBeTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.testHunger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
+          <option name="PATTERN" value="testowe.Mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
-      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
-      <option name="METHOD_NAME" value="shouldBeTheSame" />
+      <option name="PACKAGE_NAME" value="testowe.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
+      <option name="METHOD_NAME" value="testHunger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringTest.shouldNotReturnAnyCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.testName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
+          <option name="PATTERN" value="testowe.Mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
-      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
-      <option name="METHOD_NAME" value="shouldNotReturnAnyCharacter" />
+      <option name="PACKAGE_NAME" value="testowe.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
+      <option name="METHOD_NAME" value="testName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.testWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.Mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
+      <option name="METHOD_NAME" value="testWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,29 +388,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringTest.stringShouldBeNullB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
-      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
-      <option name="METHOD_NAME" value="stringShouldBeNullB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalTest.testHunger" />
+        <item itemvalue="JUnit.AnimalTest.testWeight" />
+        <item itemvalue="JUnit.AnimalTest.testName" />
         <item itemvalue="JUnit.AnimalTest" />
         <item itemvalue="JUnit.SubstringTest.shouldTestManyCases" />
-        <item itemvalue="JUnit.SubstringTest.stringShouldBeNullB" />
-        <item itemvalue="JUnit.SubstringTest.shouldBeTheSame" />
-        <item itemvalue="JUnit.SubstringTest.shouldNotReturnAnyCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -590,19 +584,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553193823717</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="testy1&#10;Mockito&#10;Mock&#10;zmiany 1 &#10;zajecia3">
+      <created>1553195755255</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553195755255</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 02m 41s.xml">
-      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 03m 36s.xml">
-      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 05m 17s.xml">
-      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 07m 30s.xml">
       <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
     </history-entry>
@@ -623,6 +615,15 @@
     </history-entry>
     <history-entry file="SubstringTest_shouldTestManyCases - 2019.03.21 at 19h 42m 58s.xml">
       <configuration name="SubstringTest.shouldTestManyCases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest - 2019.03.21 at 20h 15m 14s.xml">
+      <configuration name="AnimalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testName - 2019.03.21 at 20h 18m 07s.xml">
+      <configuration name="AnimalTest.testName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testName - 2019.03.21 at 20h 20m 25s.xml">
+      <configuration name="AnimalTest.testName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -661,7 +662,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1&#10;zmiany 1 zajecia2" />
     <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2" />
     <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true" />
     <MESSAGE value="testy1 &#10;zmiany 3 &#10;zajecia2" />
@@ -686,7 +686,8 @@
     <MESSAGE value="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;substring&#10;try &#10;catch&#10;zmiany 5&#10;zajecia3" />
     <MESSAGE value="testy1&#10;substring&#10;dziala wszystko&#10;zmiany 5 &#10;zajecia3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;substring&#10;dziala wszystko&#10;zmiany 5 &#10;zajecia3" />
+    <MESSAGE value="testy1&#10;Mockito&#10;Mock&#10;zmiany 1 &#10;zajecia3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;Mockito&#10;Mock&#10;zmiany 1 &#10;zajecia3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -795,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#105#106#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
@@ -812,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="372">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

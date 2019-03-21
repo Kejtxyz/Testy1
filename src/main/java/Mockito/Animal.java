@@ -15,7 +15,7 @@ public class Animal {
     public int getWeight(){
         return 0;
     }
-    public boolean ishungry(){
+    public boolean isHungry(){
         return false;
     }
     public void goForWalk(){
