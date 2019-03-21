@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1 poprawione&#10;zmiany 2 zajecia2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/testowe/zadaniedomowe/Zadanie1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -104,23 +106,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+            <state relative-caret-position="438">
+              <caret line="253" column="4" lean-forward="true" selection-start-line="253" selection-start-column="4" selection-end-line="253" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -128,29 +121,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/zadaniedomowe/Zadanie1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="504">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,14 +173,17 @@
         <option value="$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/testowe/zadaniedomowe/Zadanie1.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-18" />
+    <option name="x" value="-11" />
+    <option name="y" value="228" />
     <option name="width" value="1620" />
-    <option name="height" value="548" />
+    <option name="height" value="631" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,6 +230,15 @@
               <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="zadaniedomowe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -249,6 +256,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zadaniedomowe" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -256,7 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553110099009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553187450388" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -275,28 +290,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.checkEmailCorrections">
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.checkEmailCorrections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
+  <component name="RunManager" selected="JUnit.Zadanie1.assertEquals">
+    <configuration name="Zadanie1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testowe.zadaniedomowe.Zadanie1" />
+      <module name="Testy.Testy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.*" />
+          <option name="PATTERN" value="testowe.zadaniedomowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="checkEmailCorrections(java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,33 +320,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.emailsShouldByValidByMethodSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadanie1.assertEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.*" />
+          <option name="PATTERN" value="zadaniedomowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="emailsShouldByValidByMethodSource(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="zadaniedomowe" />
+      <option name="MAIN_CLASS_NAME" value="zadaniedomowe.Zadanie1" />
+      <option name="METHOD_NAME" value="assertEquals(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.emailsShouldNotBeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Zadanie1.emailsShouldBeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.*" />
+          <option name="PATTERN" value="zadaniedomowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="emailsShouldNotBeValid(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="zadaniedomowe" />
+      <option name="MAIN_CLASS_NAME" value="zadaniedomowe.Zadanie1" />
+      <option name="METHOD_NAME" value="emailsShouldBeValid(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zadanie1.intsShouldBeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadaniedomowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zadaniedomowe" />
+      <option name="MAIN_CLASS_NAME" value="zadaniedomowe.Zadanie1" />
+      <option name="METHOD_NAME" value="intsShouldBeValid(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonTest.checkEmailCorrections" />
-        <item itemvalue="JUnit.PersonTest.emailsShouldByValidByMethodSource" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonTest.emailsShouldNotBeValid" />
+        <item itemvalue="JUnit.Zadanie1.assertEquals" />
+        <item itemvalue="JUnit.Zadanie1.intsShouldBeValid" />
+        <item itemvalue="JUnit.Zadanie1.emailsShouldBeValid" />
         <item itemvalue="JUnit.PersonTest.emailsShouldBeValid" />
+        <item itemvalue="Application.Zadanie1" />
       </list>
     </recent_temporary>
   </component>
@@ -482,19 +501,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553109153074</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="testy1 &#10;&#10;zmiany kolejne&#10; zajecia2">
+      <created>1553110254181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1553110254181</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_emailsShouldBeValid - 2019.03.20 at 19h 55m 38s.xml">
-      <configuration name="PersonTest.emailsShouldBeValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_emailsShouldBeValid - 2019.03.20 at 19h 56m 42s.xml">
-      <configuration name="PersonTest.emailsShouldBeValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_emailsShouldNotBeValid - 2019.03.20 at 19h 58m 51s.xml">
-      <configuration name="PersonTest.emailsShouldNotBeValid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_emailsShouldNotBeValid - 2019.03.20 at 19h 59m 32s.xml">
       <configuration name="PersonTest.emailsShouldNotBeValid" configurationId="JUnit" />
     </history-entry>
@@ -516,12 +533,21 @@
     <history-entry file="PersonTest_checkEmailCorrections - 2019.03.20 at 20h 28m 27s.xml">
       <configuration name="PersonTest.checkEmailCorrections" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest_emailsShouldBeValid - 2019.03.21 at 17h 33m 59s.xml">
+      <configuration name="PersonTest.emailsShouldBeValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Zadanie1_intsShouldBeValid - 2019.03.21 at 17h 47m 24s.xml">
+      <configuration name="Zadanie1.intsShouldBeValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Zadanie1_assertEquals - 2019.03.21 at 17h 49m 52s.xml">
+      <configuration name="Zadanie1.assertEquals" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15359898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15359898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +556,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24462366" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17741935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,7 +566,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2701613" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293011" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32795697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,7 +596,8 @@
     <MESSAGE value="testy1 &#10;dodanie email do person&#10;testy sprawdzajace&#10;regex&#10;pattern&#10;matches&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;test parametryzowany z metoda fabrykujaca&#10;zmiany kolejne&#10; zajecia2" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;test parametryzowany z metoda fabrykujaca&#10;zmiany kolejne&#10; zajecia2" />
+    <MESSAGE value="testy1 &#10;&#10;zmiany kolejne&#10; zajecia2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1 &#10;&#10;zmiany kolejne&#10; zajecia2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -604,22 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -627,10 +638,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/zadaniedomowe/Zadanie1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+        <state relative-caret-position="438">
+          <caret line="253" column="4" lean-forward="true" selection-start-line="253" selection-start-column="4" selection-end-line="253" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

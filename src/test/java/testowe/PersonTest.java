@@ -3,9 +3,7 @@ package testowe;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 
 import java.time.Duration;
 import java.util.stream.Stream;
@@ -242,7 +240,28 @@ public class PersonTest {
     }
 
 
-    
+    // Testy parametryzowane z pliku CSV
+    @ParameterizedTest
+    @CsvSource(value = {"jan.kowalski@szkolenie.pl\", true","jakie@szkolenie.pl", false"})
+            void checkEmailCorrectionByCsvSource(String email , boolean expectedValidation){
+            person.setEmail();
+
+            assertEquals(expectedValidation, person.isEmailValid());
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/emails.csv")
+    void checkEmailsCorrectionFromFile(String email, boolean exceptedValidator){
+        person.setEmail(email);
+
+        assertEquals(expectedValidator, person.isEmailValid());
+    }
+
+
+
+}
+
+
 
 }
 
