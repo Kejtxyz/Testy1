@@ -1,7 +1,11 @@
 package testowe.TestyjednostkoweDlabibliotekiJava;
 
 import org.junit.jupiter.api.Test;
-import sun.reflect.generics.tree.VoidDescriptor;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
@@ -44,38 +48,50 @@ public class SubstringTest {
     }
 
     @Test
-    void shouldBeTheSame(){
+    void shouldBeTheSame() {
         String result = string.substring(0, 5);  // powiennien zwrocic caly string  ,5 lub length- dlugosc i tez dziala prawidlowo
 
         assertEquals(string, result);
     }
 
     @Test
-    void stringShouldBeNull(){
+    void stringShouldBeNull() {
         String stringNull = null;
 
-        assertThrows(NullPointerException.class, () -> {stringNull.substring(0, 2);
+        assertThrows(NullPointerException.class, () -> {
+            stringNull.substring(0, 2);
         });
     }
 
+    // alternatywny test wersja B
     @Test
-    void stringShouldBeNullB(){
+    void stringShouldBeNullB() {
         String stringNull = null;  // jesli bedzie null - tekst "aaa" to zlapie try, i bedzie fail,test nie wukaze blad
 
-        try{
-            stringNull.substring(0,2);
+        try {
+            stringNull.substring(0, 2);
             fail();
-        }catch(NullPointerException e){
+        } catch (NullPointerException e) {
             System.out.println("Wpadlo nam tutaj");
         }
-
-
-
     }
 
+    @ParameterizedTest
+    @MethodSource(value = "provideSubstrings")
+    void shouldTestManyCases(String slowo, String zawiera, int indexBegin, int indexEnd) {
+        String wynik = slowo.substring(indexBegin, indexEnd);
 
+        assertEquals(zawiera, wynik);
+    }
 
-
-
+    static Stream provideSubstrings() {
+        return Stream.of(
+                Arguments.of("Dzban", "ban", 2, 5),
+                Arguments.of("Czymadlugoscpiec", "dlugosc", 5, 12),
+                Arguments.of("AustriaDzisiajPrzegra", "Przegra", 14, 21)
+        );
+    }
 }
+
+
 
