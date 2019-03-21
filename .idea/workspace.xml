@@ -104,35 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="351">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191645567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553192675929" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -280,38 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubstringTest.shouldReturnBanWord">
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.checkEmailsCorrectionFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="checkEmailsCorrectionFromFile(java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SubstringTest.stringShouldBeNullB">
     <configuration name="PersonTest.personShouldHaveSpouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -328,17 +273,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testTwoArgumentsConstrusctor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubstringTest.shouldBeTheSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.*" />
+          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="testTwoArgumentsConstrusctor" />
+      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
+      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
+      <option name="METHOD_NAME" value="shouldBeTheSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubstringTest.shouldNotReturnAnyCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
+      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
+      <option name="METHOD_NAME" value="shouldNotReturnAnyCharacter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,13 +321,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubstringTest.stringShouldBeNullB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
+      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
+      <option name="METHOD_NAME" value="stringShouldBeNullB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubstringTest.stringShouldBeNullB" />
+        <item itemvalue="JUnit.SubstringTest.shouldBeTheSame" />
+        <item itemvalue="JUnit.SubstringTest.shouldNotReturnAnyCharacter" />
         <item itemvalue="JUnit.SubstringTest.shouldReturnBanWord" />
         <item itemvalue="JUnit.PersonTest.personShouldHaveSpouse" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonTest.checkEmailsCorrectionFromFile" />
-        <item itemvalue="JUnit.PersonTest.testTwoArgumentsConstrusctor" />
       </list>
     </recent_temporary>
   </component>
@@ -528,19 +505,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553191114723</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="testy1&#10;substring&#10;java&#10;zmiany 4&#10;zajecia3">
+      <created>1553191617898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553191617898</updated>
+    </task>
+    <task id="LOCAL-00023" summary="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3">
+      <created>1553191674248</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1553191674248</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Zadanie1_assertEquals - 2019.03.21 at 17h 49m 52s.xml">
-      <configuration name="Zadanie1.assertEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.21 at 18h 17m 09s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.21 at 18h 38m 57s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_checkEmailsCorrectionFromFile - 2019.03.21 at 18h 39m 36s.xml">
       <configuration name="PersonTest.checkEmailsCorrectionFromFile" configurationId="JUnit" />
     </history-entry>
@@ -561,6 +543,15 @@
     </history-entry>
     <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 05m 17s.xml">
       <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 07m 30s.xml">
+      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldNotReturnAnyCharacter - 2019.03.21 at 19h 14m 02s.xml">
+      <configuration name="SubstringTest.shouldNotReturnAnyCharacter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldBeTheSame - 2019.03.21 at 19h 15m 26s.xml">
+      <configuration name="SubstringTest.shouldBeTheSame" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -621,7 +612,9 @@
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe Java&#10;substring test1&#10;zmiany 3&#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
+    <MESSAGE value="testy1&#10;substring&#10;java&#10;zmiany 4&#10;zajecia3" />
+    <MESSAGE value="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -720,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="351">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
