@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="258" column="64" lean-forward="true" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
+            <state relative-caret-position="826">
+              <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="278">
+              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,7 +261,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191020575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191574505" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -280,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest">
+  <component name="RunManager" selected="JUnit.SubstringTest.shouldReturnBanWord">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -296,22 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.checkEmailCorrectionByCsvSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="checkEmailCorrectionByCsvSource(java.lang.String,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonTest.checkEmailsCorrectionFromFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -323,6 +307,22 @@
       <option name="PACKAGE_NAME" value="testowe" />
       <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
       <option name="METHOD_NAME" value="checkEmailsCorrectionFromFile(java.lang.String,boolean)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.personShouldHaveSpouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe" />
+      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
+      <option name="METHOD_NAME" value="personShouldHaveSpouse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,17 +344,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbersTest.numberShouldBePrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubstringTest.shouldReturnBanWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.*" />
+          <option name="PATTERN" value="testowe.TestyjednostkoweDlabibliotekiJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PrimeNumbersTest" />
-      <option name="METHOD_NAME" value="numberShouldBePrime(int)" />
+      <option name="PACKAGE_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava" />
+      <option name="MAIN_CLASS_NAME" value="testowe.TestyjednostkoweDlabibliotekiJava.SubstringTest" />
+      <option name="METHOD_NAME" value="shouldReturnBanWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -362,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubstringTest.shouldReturnBanWord" />
+        <item itemvalue="JUnit.PersonTest.personShouldHaveSpouse" />
         <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.PersonTest.checkEmailsCorrectionFromFile" />
         <item itemvalue="JUnit.PersonTest.testTwoArgumentsConstrusctor" />
-        <item itemvalue="JUnit.PersonTest.checkEmailCorrectionByCsvSource" />
-        <item itemvalue="JUnit.PrimeNumbersTest.numberShouldBePrime" />
       </list>
     </recent_temporary>
   </component>
@@ -521,25 +521,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553190647088</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3">
+      <created>1553191114723</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1553191114723</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_checkEmailCorrections - 2019.03.20 at 20h 26m 10s.xml">
-      <configuration name="PersonTest.checkEmailCorrections" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_checkEmailCorrections - 2019.03.20 at 20h 26m 24s.xml">
-      <configuration name="PersonTest.checkEmailCorrections" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_checkEmailCorrections - 2019.03.20 at 20h 28m 27s.xml">
-      <configuration name="PersonTest.checkEmailCorrections" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_emailsShouldBeValid - 2019.03.21 at 17h 33m 59s.xml">
-      <configuration name="PersonTest.emailsShouldBeValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Zadanie1_intsShouldBeValid - 2019.03.21 at 17h 47m 24s.xml">
-      <configuration name="Zadanie1.intsShouldBeValid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Zadanie1_assertEquals - 2019.03.21 at 17h 49m 52s.xml">
       <configuration name="Zadanie1.assertEquals" configurationId="JUnit" />
     </history-entry>
@@ -555,12 +547,27 @@
     <history-entry file="PersonTest - 2019.03.21 at 18h 39m 58s.xml">
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 02m 08s.xml">
+      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_personShouldHaveSpouse - 2019.03.21 at 19h 02m 18s.xml">
+      <configuration name="PersonTest.personShouldHaveSpouse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 02m 41s.xml">
+      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 03m 36s.xml">
+      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubstringTest_shouldReturnBanWord - 2019.03.21 at 19h 05m 17s.xml">
+      <configuration name="SubstringTest.shouldReturnBanWord" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,7 +576,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22983871" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +620,8 @@
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe Java&#10;substring test1&#10;zmiany 3&#10;zajecia3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;testy jednostkowe Java&#10;substring test1&#10;zmiany 3&#10;zajecia3" />
+    <MESSAGE value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -702,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="258" column="64" lean-forward="true" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
+        <state relative-caret-position="826">
+          <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="278">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
