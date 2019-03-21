@@ -24,7 +24,7 @@ public class SubstringTest {
 
     @Test
     void shouldReturnBanWord(){
-        String result2 = string.substring(2,5);
+        String result2 = string.substring(2,string.length());
 
         assertEquals("ban", result2);
     }
