@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testowe/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -51,11 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testowe/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testowe/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
@@ -112,14 +105,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="276" column="23" lean-forward="true" selection-start-line="276" selection-start-column="23" selection-end-line="276" selection-end-column="23" />
+            <state relative-caret-position="-18">
+              <caret line="258" column="64" lean-forward="true" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -128,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
-              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,8 +168,9 @@
         <option value="$PROJECT_DIR$/src/main/java/testowe/PrimeNumbers.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java" />
       </list>
     </option>
   </component>
@@ -239,6 +242,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="TestyjednostkoweDlabibliotekiJava" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -246,7 +258,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553189989155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553190535459" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -492,19 +504,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553187671180</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3">
+      <created>1553190074332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553190074332</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest - 2019.03.20 at 19h 59m 44s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest - 2019.03.20 at 20h 08m 42s.xml">
-      <configuration name="PersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_emailsShouldByValidByMethodSource - 2019.03.20 at 20h 10m 36s.xml">
-      <configuration name="PersonTest.emailsShouldByValidByMethodSource" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PersonTest_checkEmailCorrections - 2019.03.20 at 20h 26m 10s.xml">
       <configuration name="PersonTest.checkEmailCorrections" configurationId="JUnit" />
     </history-entry>
@@ -526,6 +536,15 @@
     <history-entry file="PersonTest - 2019.03.21 at 18h 17m 09s.xml">
       <configuration name="PersonTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PersonTest - 2019.03.21 at 18h 38m 57s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest_checkEmailsCorrectionFromFile - 2019.03.21 at 18h 39m 36s.xml">
+      <configuration name="PersonTest.checkEmailsCorrectionFromFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2019.03.21 at 18h 39m 58s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -540,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23790322" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1545699" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +601,8 @@
     <MESSAGE value="testy1 &#10;test parametryzowany z metoda fabrykujaca&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3" />
+    <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -662,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,11 +691,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="276" column="23" lean-forward="true" selection-start-line="276" selection-start-column="23" selection-end-line="276" selection-end-column="23" />
+        <state relative-caret-position="-18">
+          <caret line="258" column="64" lean-forward="true" selection-start-line="258" selection-start-column="64" selection-end-line="258" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>

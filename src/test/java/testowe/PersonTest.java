@@ -241,7 +241,7 @@ public class PersonTest {
         Arguments.of("jakie@szkolenie.pl", false)
         );
     }
-
+// ma wyjsc nie znaleziono pliku
     @ParameterizedTest
     @CsvFileSource(resources = "/emails.csv")
     void checkEmailsCorrectionFromFile(String email, boolean exceptedValidator){
@@ -274,7 +274,7 @@ public class PersonTest {
         .isGreaterThan(10)
         .isBetween(0,100);
     }
-    
+
 }
 
 
