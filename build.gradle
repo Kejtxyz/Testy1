@@ -17,4 +17,6 @@ dependencies {
     testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.5.0-M1'  // junit silnik
     testCompile 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'  // biblioteki do testow parametryzowanych
     testCompile 'org.assertj:assertj-core:3.11.1'
+    testCompile 'org.mockito:mockito-core:2.+'
+
 }

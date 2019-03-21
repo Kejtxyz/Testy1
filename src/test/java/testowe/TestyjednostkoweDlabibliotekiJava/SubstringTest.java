@@ -58,7 +58,7 @@ public class SubstringTest {
     void stringShouldBeNull() {
         String stringNull = null;
 
-        assertThrows(NullPointerException.class, () -> {
+        assertThrows(NullPointerException.class, () -> {    // -> lambda
             stringNull.substring(0, 2);
         });
     }
