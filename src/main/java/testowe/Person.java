@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class Person {
+    private int age;
     private String name;
     private Person spouse;  // spouse - małżonek
     private List<Person> children = new ArrayList<>();
@@ -30,16 +31,30 @@ public class Person {
 
 
 
+
+
+
     public Person(String name) {
         this.name = name;
         // przypisujemy konstruktor od zmiennej lokalnej
     }
 
 
+    ////
+    public Person(String name, int age){
+     //   this.name = name;
+        this(name);
+        this.age = age;
+    }
+
+
+
 
     public String getName() {
         return name;
     }
+
+    public int getAge() {return  age;}
 
     public Person getSpouse() {
         return spouse;
@@ -109,6 +124,7 @@ public class Person {
     public boolean isEmailValid(){
         return pattern.matcher(email).matches();  // matches - sprawdza czy email jest zgodny z wyrazeniem regularnym, czy bedzie jakis znak na poacztku,czy bedzie malpa@
     }
+
 
 
 }

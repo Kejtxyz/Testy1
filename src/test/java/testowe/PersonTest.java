@@ -1,5 +1,6 @@
 package testowe;
 
+import com.sun.istack.internal.NotNull;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -8,6 +9,8 @@ import org.junit.jupiter.params.provider.*;
 import java.time.Duration;
 import java.util.stream.Stream;
 
+import static jdk.internal.dynalink.support.Guards.isNotNull;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 // testow sie nie dokumentuje
@@ -239,31 +242,44 @@ public class PersonTest {
         );
     }
 
-
-    // Testy parametryzowane z pliku CSV
-    @ParameterizedTest
-    @CsvSource(value = {"jan.kowalski@szkolenie.pl\", true","jakie@szkolenie.pl", false"})
-            void checkEmailCorrectionByCsvSource(String email , boolean expectedValidation){
-            person.setEmail();
-
-            assertEquals(expectedValidation, person.isEmailValid());
-    }
-
     @ParameterizedTest
     @CsvFileSource(resources = "/emails.csv")
     void checkEmailsCorrectionFromFile(String email, boolean exceptedValidator){
         person.setEmail(email);
 
-        assertEquals(expectedValidator, person.isEmailValid());
+        assertEquals(exceptedValidator, person.isEmailValid());
     }
 
+    // Testy parametryzowane z pliku CSV
+    @ParameterizedTest
+    @CsvSource(value = {"jan.kowalski@szkolenie.p\", true","jakie@szkolenie.pl, false"})
+            void checkEmailCorrectionByCsvSource(String email , boolean expectedValidation){
+        person.setEmail(email);
 
+        assertEquals(expectedValidation, person.isEmailValid());
+    }
 
+    @Test
+    void testTwoArgumentsConstrusctor(){
+        Person newPerson = new Person("Jan Kowalski", 18);
+
+        assertThat(newPerson.getName())
+                .isEqualTo("Jan Kowalski")
+                .isEqualToIgnoringCase("jan kowalski")
+                 .isNotNull();
+
+        assertThat(newPerson.getAge())
+        .isEqualTo(18)
+        .isLessThan(20)
+        .isGreaterThan(10)
+        .isBetween(0,100);
+    }
+    
 }
 
 
 
-}
+
 
 
 
