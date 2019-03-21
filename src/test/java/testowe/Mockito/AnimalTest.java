@@ -1,10 +1,10 @@
 package testowe.Mockito;
 
 import Mockito.Animal;
+import Mockito.TooManyTimesHungryException;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -37,7 +37,15 @@ public class AnimalTest {
         assertTrue(animal.isHungry());
     }
 
+    @Test
+    void testHungryException(){
 
+        when(animal.isHungry()).thenThrow(TooManyTimesHungryException.class);
+
+        assertThrows(TooManyTimesHungryException.class, () -> {    
+           animal.isHungry();
+        });
+    }
 
 
 }
