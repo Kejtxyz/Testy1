@@ -7,27 +7,34 @@ import messenger.Messenger;
 import messenger.TemplateEngine;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 public class MessengerTest {
 
     @Test
     void shouldSendMessenger(){
+        String messenge = "czesc,jan kowlaski, co tam u was?";
+        String email = " email@email.pl" ;
         //  dummy //
         Template templateMock = mock(Template.class);
         //  stub  //
-        TemplateEngine templateEngine = mock(TemplateEngine.class);
+        TemplateEngine templateEngineMock = mock(TemplateEngine.class);
         // mock (spy)
-        MailServer mailServer = mock(MailServer.class);
+        MailServer mailServerMock = mock(MailServer.class);
         // stub //
         Client clientMock = mock(Client.class);
+        
+        Messenger messenger = new Messenger(mailServerMock, templateEngineMock);
 
+        when(templateEngineMock.prepareMessage(templateMock, clientMock)).thenReturn(messenge);
+        when(clientMock.getEmail()).thenReturn(email);
 
-        Messenger messenger = new Messenger();
+        messenger.sendMessage(clientMock, templateMock);
 
-        messenger.sendMessage();
+        verify(mailServerMock).send(email, messenge);
 
-        // weryfikacja
+        messenger.sendMessage(clientMock, templateMock);
 
+        verify(mailServerMock).send(email, messenge);
     }
 }

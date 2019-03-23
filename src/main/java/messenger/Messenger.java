@@ -16,5 +16,6 @@ public class Messenger {
         String message = templateEngine.prepareMessage(template,client);  // okreslamy ze silnik wzwrucil jakas wiaodmosc
         mailServer.send(client.getEmail(), message);
 
+
     }
 }

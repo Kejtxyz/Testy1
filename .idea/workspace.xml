@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
+    <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/LambdaZadanie1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/LambdaZadanie1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie2/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/src/lambdaZadanie3/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPP" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamLambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamLambda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamLambda/src/Lambdastream1/Filter/Filer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamLambda/src/Lambdastream1/Filter/Filer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/JavaStreamStrumienieZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/JavaStreamStrumienieZadania.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/LambdaZadaniaJavaZawansowana/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/LambdaZadaniaJavaZawansowana/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/StreamStrumienieZadanie5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/StreamStrumienieZadanie5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/Zadanie4StreamStrumienie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/Zadanie4StreamStrumienie/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienZadanie8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienZadanie8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienZadanie9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienZadanie9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Pracownicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumieniZadanhie10/Pracownicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienieZadanie6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamStrumienieZadanie6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamZadanie2/Zadanie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/main/java/streamZadanie2/Zadanie2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/streamStrumienZad1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/streamZadanie2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/test/java/TestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaStreamStrumienieZadania/src/test/testjednostkowy/unitTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/newroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/newroom/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/newroom/NewRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/newroom/NewRoom.java" afterDir="false" />
@@ -42,15 +13,9 @@
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaZawansowana1b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana1b/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
@@ -58,35 +23,9 @@
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-collections" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collections" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-collectionsMapy" beforeDir="false" afterPath="$PROJECT_DIR$/../java-collectionsMapy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaZawansowanaProjekt/files/passwords.json" beforeDir="false" afterPath="$PROJECT_DIR$/../javaZawansowanaProjekt/files/passwords.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projectjavazawansowana1c/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectjavazawansowana1c/src/staticExaple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectjavazawansowana1c/src/staticExaple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tarr4-Podstawy" beforeDir="false" afterPath="$PROJECT_DIR$/../tarr4-Podstawy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tarr4-moje" beforeDir="false" afterPath="$PROJECT_DIR$/../tarr4-moje" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tarr4b" beforeDir="false" afterPath="$PROJECT_DIR$/../tarr4b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex01watkithread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex01watkithread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex01watkithread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex01watkithread/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex02javazawwatki/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex02javazawwatki/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex02javazawwatki/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex02javazawwatki/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex03watkijavapulawatkow/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex03watkijavapulawatkow/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex04watkithreadwykonywaniePoKolei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex04watkithreadwykonywaniePoKolei/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/src/watkiThread/ex01watkithread/ex05threadwatkiJavaIncrementacjaZmiennychAtom/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watek3threadCw3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watek3threadCw3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watek3threadCw3/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watek3threadCw3/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki2threadCw2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki2threadCw2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki2threadCw2/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki2threadCw2/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki4threadCw4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki4threadCw4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki4threadCw4/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watki4threadCw4/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watkicw1thread1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watkicw1thread1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watkicw1thread1/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/src/javaWatkiCwiczneia/watkicw1thread1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zabawa1/src/zabawa1a/HelloWorld1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zabawa1/src/zabawa1a/HelloWorld1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zabawa1/src/zabawa1b/Zamienne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zabawa1/src/zabawa1b/Zamienne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zabawa1/src/zabawa1c/Metody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zabawa1/src/zabawa1c/Metody.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -107,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="99">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -186,10 +125,10 @@
         <option value="$PROJECT_DIR$/src/main/java/messenger/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Templete.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" />
       </list>
     </option>
@@ -286,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553335634235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553336102182" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -653,7 +592,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553335608177</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="testy3&#10;messeger&#10;mocki&#10;zmiany 7&#10;zajecia4">
+      <created>1553336024465</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1553336024465</updated>
+    </task>
+    <task id="LOCAL-00037" summary="testy3&#10;stub&#10;messeger&#10;mocki&#10;zmiany 8&#10;zajecia4">
+      <created>1553336077353</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1553336077353</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -724,8 +677,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1&#10;dodanie metody exception&#10;zmiany 9&#10;zajecia2" />
-    <MESSAGE value="testy1 &#10;test wydajnosciowy - mierzacy czas wykonywania metody&#10;zmiany 9&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;assume - warunki&#10;&#10;zmiany 10&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;dodanie email do person&#10;testy sprawdzajace&#10;regex&#10;pattern&#10;matches&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2" />
@@ -749,7 +700,9 @@
     <MESSAGE value="testy1&#10;Messenger&#10;zmiany 5 &#10;zajecia4" />
     <MESSAGE value="testy1&#10;dummy&#10;zmiany 5&#10;zajecia4" />
     <MESSAGE value="testy3&#10;stub&#10;zmiany 6&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy3&#10;stub&#10;zmiany 6&#10;zajecia4" />
+    <MESSAGE value="testy3&#10;messeger&#10;mocki&#10;zmiany 7&#10;zajecia4" />
+    <MESSAGE value="testy3&#10;stub&#10;messeger&#10;mocki&#10;zmiany 8&#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy3&#10;stub&#10;messeger&#10;mocki&#10;zmiany 8&#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -909,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -923,10 +869,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="99">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
