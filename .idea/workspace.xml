@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/messenger/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/messenger/Templete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -51,8 +48,7 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MianNotatka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
@@ -141,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -159,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#75#76#0" expanded="true" />
                 <element signature="e#99#100#0" expanded="true" />
@@ -173,29 +169,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/MailServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/Animal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -259,9 +245,11 @@
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Templete.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" />
       </list>
     </option>
   </component>
@@ -357,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553334460697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553334521878" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -689,7 +677,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553333385317</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="testy3&#10;Mockito&#10;Wykorzystanie mockow&#10;&#10;&#10;zmiany 3 &#10;zajecia4">
+      <created>1553334503266</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1553334503266</updated>
+    </task>
+    <task id="LOCAL-00032" summary="testy1&#10;Mocki&#10;Nowe zadanie&#10;Messenger&#10;&#10;zmiany 4&#10;zajecia4">
+      <created>1553334558518</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1553334558518</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -760,8 +762,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1 &#10;zmiany 5&#10; zajecia2" />
-    <MESSAGE value="testy1 &#10;zmiany 6&#10;dodanie Arrange,Act, Assert,&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;zmiany 6&#10;stworzneie obiektow wywolywanych przed testami&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;Refactor codu&#10;Stworznie pakietów&#10;przeniesienie do innych pakietow&#10;zmiany 7&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;wprowadzone sprawdzenie minusowych piniedzy&#10;stworzenie wyjatku&#10;zmiany 8&#10;zajecia2" />
@@ -785,7 +785,9 @@
     <MESSAGE value="testy2&#10;Mockito&#10;Mock&#10;&#10;zmiany 3&#10;zajecia3" />
     <MESSAGE value="testy3&#10;&#10;zmiany 1 &#10;zajecia4" />
     <MESSAGE value="testy3&#10;mockito &#10;mockowanie&#10;zmiany 2&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy3&#10;mockito &#10;mockowanie&#10;zmiany 2&#10;zajecia4" />
+    <MESSAGE value="testy3&#10;Mockito&#10;Wykorzystanie mockow&#10;&#10;&#10;zmiany 3 &#10;zajecia4" />
+    <MESSAGE value="testy1&#10;Mocki&#10;Nowe zadanie&#10;Messenger&#10;&#10;zmiany 4&#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;Mocki&#10;Nowe zadanie&#10;Messenger&#10;&#10;zmiany 4&#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -924,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Templete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -940,12 +935,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#75#76#0" expanded="true" />
             <element signature="e#99#100#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/MailServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
