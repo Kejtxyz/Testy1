@@ -6,23 +6,24 @@ import menager.UserManager;
 import org.junit.jupiter.api.Test;
 import testowe.Person;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class ManagerTest {
+    // czy majac jakies pola,obiekty, mocki,
+    // czy jakies czynnosci zostana wywolane na bazie danych
+    String email = "Jan.kowalski@wp.pl";  // DUMMY ,tylklo musi istniec, nie ma interreakcji z nim nigdzie pozniej
+    Database databaseMock = mock(Database.class);
+    Network networkMock = mock(Network.class);
+    Person userMock = mock(Person.class);
+
+    UserManager userManager = new UserManager(databaseMock, networkMock);
+
+    // sprawdza czy uzytkownikowi udalo sie zalogowacł
+
 
     @Test
     void loginSuccess() {
-        // czy majac jakies pola,obiekty, mocki,
-        // czy jakies czynnosci zostana wywolane na bazie danych
-        String email = "Jan.kowalski@wp.pl";
-        Database databaseMock = mock(Database.class);
-        Network networkMock = mock(Network.class);
-        Person userMock = mock(Person.class);
-
-        UserManager userManager = new UserManager(databaseMock, networkMock);
-        // sprawdza czy uzytkownikowi udalo sie zalogowac
 
         when(userMock.getEmail()).thenReturn(email);
 
@@ -31,9 +32,21 @@ public class ManagerTest {
         assertTrue(result);
         assertEquals(userMock, userManager.getUser());  // przypisany uzytkownik zostal przypisany do kontruktora
         verify(databaseMock).save(userMock);
-        verify(networkMock).upload(userMock);
+        verify(networkMock).upload(userMock);  // verify sprawdzamy czy metoda sie uruchomila
 
     }
+
+    @Test
+    void loginFailure() {
+        Person user = null;
+
+        boolean result = userManager.login(user);
+
+        assertFalse(result);
+        verify(databaseMock, never()).save(user);
+        verify(networkMock, never()).upload(user);
+    }
+
 
     ////    F A K E    ////
     // fake - operujemy na zlozonych obiektach, wiekszej ilosci obiektow
@@ -41,10 +54,12 @@ public class ManagerTest {
     // np, getUser.cars
 
     String[][] fake = {
-        {"Ople","Astra","2.0","5-osobowy"},
-        {"Fiat","Punto","1.5","5-osobowy"},
-        {"Ford","Focus","1.8","5-osobowy"},
-        {"Audi","TT","3.0","5-osobowy"},
-        {"Ford","Focus","1.8","5-osobowy"},
-    }
+            {"Ople", "Astra", "2.0", "5-osobowy"},
+            {"Fiat", "Punto", "1.5", "5-osobowy"},
+            {"Ford", "Focus", "1.8", "5-osobowy"},
+            {"Audi", "TT", "3.0", "5-osobowy"},
+            {"Ford", "Focus", "1.8", "5-osobowy"},
+    };
+
 }
+

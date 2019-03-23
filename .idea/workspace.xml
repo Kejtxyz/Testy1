@@ -14,10 +14,8 @@
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menager/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menager/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menager/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menager/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
@@ -46,10 +44,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,6 +86,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1533">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+            <state relative-caret-position="519">
+              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/testowe/Mockito/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
@@ -175,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/java/menager/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/menager/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" />
       </list>
     </option>
@@ -222,14 +258,6 @@
               <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -256,6 +284,24 @@
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
               <item name="Manager" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="Mockito" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +309,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553338584312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553340654233" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -283,7 +329,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManagerTest.loginSuccess">
+  <component name="RunManager" selected="JUnit.ManagerTest.loginFailure">
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.Manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.Manager" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.loginFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.Manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.Manager" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
+      <option name="METHOD_NAME" value="loginFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerTest.loginSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -295,38 +372,6 @@
       <option name="PACKAGE_NAME" value="testowe.Manager" />
       <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
       <option name="METHOD_NAME" value="loginSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MessengerTest.shouldSendMessenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.Messenger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe.Messenger" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Messenger.MessengerTest" />
-      <option name="METHOD_NAME" value="shouldSendMessenger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.checkEmailCorrections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="checkEmailCorrections(java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -366,11 +411,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ManagerTest.loginFailure" />
+        <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="JUnit.ManagerTest.loginSuccess" />
         <item itemvalue="JUnit.PersonTest.setSpouseCheatingOnPerson" />
         <item itemvalue="JUnit.PersonTest.personShouldGoForWalkWithAnimal" />
-        <item itemvalue="JUnit.PersonTest.checkEmailCorrections" />
-        <item itemvalue="JUnit.MessengerTest.shouldSendMessenger" />
       </list>
     </recent_temporary>
   </component>
@@ -665,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553337775384</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="testy5&#10;FAKE&#10;zmiany 1&#10;zajecia4">
+      <created>1553339869248</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1553339869248</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -704,7 +756,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -713,7 +765,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -723,7 +775,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2701613" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32258064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -736,7 +788,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1 &#10;test parametryzowany z metoda fabrykujaca&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
@@ -761,7 +812,8 @@
     <MESSAGE value="testy3&#10;dummy&#10;spy&#10;stub&#10;mock spy&#10;messeger&#10;mocki&#10;zmiany 9&#10;zajecia4" />
     <MESSAGE value="testy4&#10;manager&#10;zmiany 1&#10;zajecia4" />
     <MESSAGE value="testy4&#10;manager&#10;zmiany 2&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy4&#10;manager&#10;zmiany 2&#10;zajecia4" />
+    <MESSAGE value="testy5&#10;FAKE&#10;zmiany 1&#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy5&#10;FAKE&#10;zmiany 1&#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -833,18 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -863,16 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -911,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -953,16 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -974,10 +984,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="519">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

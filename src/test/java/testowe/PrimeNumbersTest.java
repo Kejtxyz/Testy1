@@ -23,8 +23,8 @@ public class PrimeNumbersTest {
             @ValueSource(ints = {-10, 2,3,5,7,13,29,33})
             void cornerCaseShouldNotBePrime(int number) {
                 assertTrue(PrimeNumbers.isPrime(number));
-            }
 
+            }
     }
 
 
