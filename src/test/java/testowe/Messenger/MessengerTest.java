@@ -19,8 +19,9 @@ public class MessengerTest {
         TemplateEngine templateEngine = mock(TemplateEngine.class);
         // mock (spy)
         MailServer mailServer = mock(MailServer.class);
-        //
-        
+        // stub //
+        Client clientMock = mock(Client.class);
+
 
         Messenger messenger = new Messenger();
 
