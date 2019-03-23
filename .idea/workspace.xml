@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -49,7 +50,12 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/MianNotatka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MianNotatka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
@@ -106,6 +112,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="899">
+              <caret line="275" column="5" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-795">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -121,7 +174,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="372">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -187,22 +240,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
         <option value="$PROJECT_DIR$/src/main/java/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/zadaniedomowe/Zadanie1.java" />
         <option value="$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/PrimeNumbers.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/TestJednostkowy1.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Mockito/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mockito/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" />
       </list>
     </option>
@@ -252,14 +305,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Mockito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,11 +344,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553196581804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553332446104" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RunDashboard">
@@ -318,8 +364,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalTest.testHungryException">
-    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AnimalTest.testGoForWalk2">
+    <configuration name="AnimalTest.testGoForWalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
@@ -329,12 +375,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="testowe.Mockito" />
       <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testGoForWalk" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest.testHunger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.testGoForWalk1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
@@ -344,7 +391,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="testowe.Mockito" />
       <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
-      <option name="METHOD_NAME" value="testHunger" />
+      <option name="METHOD_NAME" value="testGoForWalk1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.testGoForWalk2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.Mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.Mockito" />
+      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
+      <option name="METHOD_NAME" value="testGoForWalk2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -382,29 +445,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest.testWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.Mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe.Mockito" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
-      <option name="METHOD_NAME" value="testWeight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnimalTest.testHungryException" />
-        <item itemvalue="JUnit.AnimalTest.testHunger" />
-        <item itemvalue="JUnit.AnimalTest.testWeight" />
+        <item itemvalue="JUnit.AnimalTest.testGoForWalk2" />
+        <item itemvalue="JUnit.AnimalTest.testGoForWalk1" />
+        <item itemvalue="JUnit.AnimalTest.testGoForWalk" />
         <item itemvalue="JUnit.AnimalTest.testName" />
-        <item itemvalue="JUnit.AnimalTest" />
+        <item itemvalue="JUnit.AnimalTest.testHungryException" />
       </list>
     </recent_temporary>
   </component>
@@ -608,22 +655,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553196381135</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="testy2&#10;Mockito&#10;Mock&#10;&#10;zmiany 3&#10;zajecia3">
+      <created>1553196954997</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1553196954997</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubstringTest_shouldBeTheSame - 2019.03.21 at 19h 15m 26s.xml">
-      <configuration name="SubstringTest.shouldBeTheSame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubstringTest_stringShouldBeNullB - 2019.03.21 at 19h 24m 49s.xml">
-      <configuration name="SubstringTest.stringShouldBeNullB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubstringTest_shouldTestManyCases - 2019.03.21 at 19h 42m 03s.xml">
-      <configuration name="SubstringTest.shouldTestManyCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubstringTest_shouldTestManyCases - 2019.03.21 at 19h 42m 35s.xml">
-      <configuration name="SubstringTest.shouldTestManyCases" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SubstringTest_shouldTestManyCases - 2019.03.21 at 19h 42m 58s.xml">
       <configuration name="SubstringTest.shouldTestManyCases" configurationId="JUnit" />
     </history-entry>
@@ -641,6 +683,18 @@
     </history-entry>
     <history-entry file="AnimalTest_testHunger - 2019.03.21 at 20h 25m 50s.xml">
       <configuration name="AnimalTest.testHunger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testHungryException - 2019.03.21 at 20h 29m 52s.xml">
+      <configuration name="AnimalTest.testHungryException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testGoForWalk - 2019.03.23 at 10h 09m 42s.xml">
+      <configuration name="AnimalTest.testGoForWalk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testGoForWalk1 - 2019.03.23 at 10h 10m 34s.xml">
+      <configuration name="AnimalTest.testGoForWalk1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalTest_testGoForWalk2 - 2019.03.23 at 10h 11m 30s.xml">
+      <configuration name="AnimalTest.testGoForWalk2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -679,7 +733,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1 poprawione&#10;zmiany 2 zajecia2&#10;wszystkie testy wynik = true" />
     <MESSAGE value="testy1 &#10;zmiany 3 &#10;zajecia2" />
     <MESSAGE value="testy1 &#10;zmiany 4&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;zmiany 5&#10; zajecia2" />
@@ -704,7 +757,8 @@
     <MESSAGE value="testy1&#10;substring&#10;dziala wszystko&#10;zmiany 5 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;Mockito&#10;Mock&#10;zmiany 1 &#10;zajecia3" />
     <MESSAGE value="testy2&#10;Mockito&#10;Mock&#10;zmiany 2 &#10;zajecia3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy2&#10;Mockito&#10;Mock&#10;zmiany 2 &#10;zajecia3" />
+    <MESSAGE value="testy2&#10;Mockito&#10;Mock&#10;&#10;zmiany 3&#10;zajecia3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy2&#10;Mockito&#10;Mock&#10;&#10;zmiany 3&#10;zajecia3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -714,13 +768,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -760,40 +807,6 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="275" column="5" lean-forward="true" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/TestyjednostkoweDlabibliotekiJava/SubstringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -807,7 +820,7 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -831,14 +844,53 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="275" column="5" selection-start-line="275" selection-start-column="5" selection-end-line="275" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="372">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

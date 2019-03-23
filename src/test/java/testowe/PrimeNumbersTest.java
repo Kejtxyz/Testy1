@@ -25,8 +25,6 @@ public class PrimeNumbersTest {
                 assertTrue(PrimeNumbers.isPrime(number));
             }
 
-
-
     }
 
 

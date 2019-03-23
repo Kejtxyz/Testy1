@@ -5,12 +5,11 @@ import Mockito.TooManyTimesHungryException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 // ZASADA BIALEJ SKRZYNKI KOD KTORY TESTUJEMY JEST NAM ZNANY !!
 public class AnimalTest {
-
+// mock na klase animal
     Animal animal = mock(Animal.class);  // nasz mock , czy ta wartosc zostanie przyporzadkowana do nazwy pimpus??
 
     @Test
@@ -42,10 +41,37 @@ public class AnimalTest {
 
         when(animal.isHungry()).thenThrow(TooManyTimesHungryException.class);
 
-        assertThrows(TooManyTimesHungryException.class, () -> {    
+        assertThrows(TooManyTimesHungryException.class, () -> {
            animal.isHungry();
         });
     }
+
+    @Test
+    void testGoForWalk(){
+        animal.goForWalk("PARK");
+
+        verify(animal).goForWalk("PARK");
+    }
+
+    @Test
+    void testGoForWalk1(){
+        animal.goForWalk(anyString());
+
+        verify(animal).goForWalk("PARK");  // verify() metody uzywamy przy void
+    }
+
+
+    @Test
+    void testGoForWalk2(){
+        animal.goForWalk("park");
+
+        verify(animal).goForWalk(anyString());  // - anyString - oczekujemy konkretnej wartosci
+    }
+
+
+    // obiekt testowany musi istniec, animal
+    // inne rzyczy mozemy mockowac
+
 
 
 }

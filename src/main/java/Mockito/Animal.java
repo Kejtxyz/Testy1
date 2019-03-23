@@ -18,7 +18,7 @@ public class Animal {
     public boolean isHungry(){
         return false;
     }
-    public void goForWalk(){
+    public void goForWalk(String home){
 
     }
 }

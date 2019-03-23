@@ -1,5 +1,7 @@
 package testowe;
 
+import Mockito.Animal;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -126,6 +128,10 @@ public class Person {
     }
 
 
+
+    public void workForWalk(long time , int cash, Animal animal, String place){
+        
+    }
 
 }
 // CTRL + L   - UKLADA KOD
