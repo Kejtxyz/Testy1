@@ -14,12 +14,16 @@ public class UserManager {
     }
 
     public boolean login(Person user){
-        network.upload(user);
+        network.upload(user);  // mozna zweryfikowac czy zostaly uruchomione, czy user zostal przypisnay do konstruktora w tescie
         database.save(user);
 
         this.user = user;
 
         return true ;
+    }
+
+    public Person getUser(){
+        return this.user;
     }
 
 
