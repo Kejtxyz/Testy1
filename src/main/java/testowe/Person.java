@@ -134,5 +134,12 @@ public class Person {
         work(time, cash);
     }
 
+    // PowerMock
+
+    private int howMuchEarn(){
+        return 500;
+
+    }
+
 }
 // CTRL + L   - UKLADA KOD

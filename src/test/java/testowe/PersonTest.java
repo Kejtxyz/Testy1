@@ -18,6 +18,7 @@ import static org.mockito.Mockito.*;
 
 // testow sie nie dokumentuje
 // nazwa testu ma mowic od czego jest , i sprawdza czy kod jest prawidlowy
+
 public class PersonTest {
 // tworzenie obiektu
     Person person = new Person("Jan Kowalski");

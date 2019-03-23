@@ -47,6 +47,9 @@
  // junit -wersja 4
 //**/
 //
+//  PowerMock umozliwia wywolanie meotdy prywatnej
 //
-//
-//
+//  powerMockito.mockStatic - mockowanie metod statycznych
+//  PowerMockito.mockStatic()
+//  PowerMockito.verify.Static()
+
