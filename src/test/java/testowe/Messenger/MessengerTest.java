@@ -1,6 +1,8 @@
-package testowe.messenger;
+package testowe.Messenger;
 
 import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
+import messenger.Client;
+import messenger.MailServer;
 import messenger.Messenger;
 import messenger.TemplateEngine;
 import org.junit.jupiter.api.Test;
@@ -15,6 +17,10 @@ public class MessengerTest {
         Template templateMock = mock(Template.class);
         //  stub  //
         TemplateEngine templateEngine = mock(TemplateEngine.class);
+        // mock (spy)
+        MailServer mailServer = mock(MailServer.class);
+        //
+        
 
         Messenger messenger = new Messenger();
 
