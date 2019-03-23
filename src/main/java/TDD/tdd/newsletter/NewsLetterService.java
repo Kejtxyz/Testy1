@@ -1,12 +1,14 @@
 package TDD.tdd.newsletter;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class NewsLetterService {
 
    // refactor kodu Client robimy liste clientow
-    private List<Client> clients = new ArrayList<>();
+    private Set<Client> clients = new HashSet<>();
 
     public void addSubscriber(Client client) {
         clients.add(client);
@@ -18,5 +20,9 @@ public class NewsLetterService {
      }
 
         //  client.receiveMessage(message);
+    }
+
+    public void removeSubscriber(Client client) {
+        clients.remove(client);
     }
 }

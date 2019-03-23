@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDD/notatka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPP" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" afterDir="false" />
@@ -20,6 +14,8 @@
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
@@ -104,12 +100,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="246">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,10 +211,10 @@
         <option value="$PROJECT_DIR$/src/main/java/TDD/MainNOtatka.java" />
         <option value="$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java" />
         <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/MainNewsLetterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletterTest/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" />
       </list>
     </option>
   </component>
@@ -329,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553350476577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553351237796" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/TDD/tdd" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -355,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewsLetterServiceTest.subscribedClientShouldNotReciveMessage">
+  <component name="RunManager" selected="JUnit.NewsLetterServiceTest">
     <configuration name="NewsLetterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -371,7 +369,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewsLetterServiceTest.messageShouldBeSendToManySubscribers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsLetterServiceTest.shouldSendOnlyOneMessageToManySubscribedClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
@@ -381,7 +379,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
       <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
-      <option name="METHOD_NAME" value="messageShouldBeSendToManySubscribers" />
+      <option name="METHOD_NAME" value="shouldSendOnlyOneMessageToManySubscribedClients" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -419,17 +417,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerMockPersonTest.constructorShouldSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsLetterServiceTest.unsucribedClientShoutNotReceiveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PowerMockJunit4.*" />
+          <option name="PATTERN" value="TDD.tdd.newsletterTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PowerMockJunit4" />
-      <option name="MAIN_CLASS_NAME" value="PowerMockJunit4.PowerMockPersonTest" />
-      <option name="METHOD_NAME" value="constructorShouldSetName" />
+      <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
+      <option name="METHOD_NAME" value="unsucribedClientShoutNotReceiveMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -437,11 +435,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" />
         <item itemvalue="JUnit.NewsLetterServiceTest" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.unsucribedClientShoutNotReceiveMessage" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.shouldSendOnlyOneMessageToManySubscribedClients" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" />
         <item itemvalue="JUnit.NewsLetterServiceTest.subscribedClientShouldReciveMessage" />
-        <item itemvalue="JUnit.NewsLetterServiceTest.messageShouldBeSendToManySubscribers" />
-        <item itemvalue="JUnit.PowerMockPersonTest.constructorShouldSetName" />
       </list>
     </recent_temporary>
   </component>
@@ -771,19 +769,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553347542131</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="testy7&#10;JUNIT 5&#10;TDD&#10;Programowanie przy uzyciu testow TDD&#10;   &#10;       zmiany 1&#10;       zajecia4">
+      <created>1553350768570</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1553350768570</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PowerMockPersonTest_testHowMuchEarnByPriveMethod - 2019.03.23 at 14h 15m 12s.xml">
-      <configuration name="PowerMockPersonTest.testHowMuchEarnByPriveMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PowerMockPersonTest_constructorShouldSetName - 2019.03.23 at 14h 26m 48s.xml">
-      <configuration name="PowerMockPersonTest.constructorShouldSetName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewsLetterServiceTest_subscribedClientShouldReciveMessage - 2019.03.23 at 14h 52m 42s.xml">
-      <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NewsLetterServiceTest_subscribedClientShouldReciveMessage - 2019.03.23 at 14h 53m 24s.xml">
       <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" configurationId="JUnit" />
     </history-entry>
@@ -805,12 +801,21 @@
     <history-entry file="NewsLetterServiceTest_subscribedClientShouldNotReciveMessage - 2019.03.23 at 15h 14m 45s.xml">
       <configuration name="NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NewsLetterServiceTest - 2019.03.23 at 15h 20m 33s.xml">
+      <configuration name="NewsLetterServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_shouldSendOnlyOneMessageToManySubscribedClients - 2019.03.23 at 15h 22m 30s.xml">
+      <configuration name="NewsLetterServiceTest.shouldSendOnlyOneMessageToManySubscribedClients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_unsucribedClientShoutNotReceiveMessage - 2019.03.23 at 15h 26m 08s.xml">
+      <configuration name="NewsLetterServiceTest.unsucribedClientShoutNotReceiveMessage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -819,7 +824,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -842,7 +847,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;substring&#10;java&#10;zmiany 4&#10;zajecia3" />
     <MESSAGE value="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;substring&#10;try &#10;catch&#10;zmiany 5&#10;zajecia3" />
@@ -867,7 +871,8 @@
     <MESSAGE value="testy5&#10;FAKE&#10;zmiany 3&#10;zajecia4" />
     <MESSAGE value="testy6&#10;POWERMOCK&#10;private - mocki&#10;        JUNIT ERSJA 4&#10;        zmiany 1&#10;        zajecia4" />
     <MESSAGE value="testy6&#10;POWERMOCK&#10;private - mocki&#10;                             JUNIT WERSJA 4&#10;                         PowerMock    &#10;        zmiany 2 final&#10;        zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy6&#10;POWERMOCK&#10;private - mocki&#10;                             JUNIT WERSJA 4&#10;                         PowerMock    &#10;        zmiany 2 final&#10;        zajecia4" />
+    <MESSAGE value="testy7&#10;JUNIT 5&#10;TDD&#10;Programowanie przy uzyciu testow TDD&#10;   &#10;       zmiany 1&#10;       zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy7&#10;JUNIT 5&#10;TDD&#10;Programowanie przy uzyciu testow TDD&#10;   &#10;       zmiany 1&#10;       zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -1142,20 +1147,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="246">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

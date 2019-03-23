@@ -57,10 +57,27 @@ public class NewsLetterServiceTest {
     void shouldSendOnlyOneMessageToManySubscribedClients(){
         newsLetterService.addSubscriber(clientAMock);
         newsLetterService.addSubscriber(clientAMock);
+        newsLetterService.send(messageMock);
+
         verify(clientAMock, times(1)).receiveMessage(messageMock);  // wynik powinin byc fail
     }
+
+    @Test
+    // klient ktory odsubscrybuje nie powinin dostac messege
+
+    void unsucribedClientShoutNotReceiveMessage(){
+        newsLetterService.addSubscriber(clientAMock);
+        newsLetterService.removeSubscriber(clientAMock);
+
+        newsLetterService.send(messageMock);
+
+        verify(clientAMock, never()).receiveMessage(messageMock);
+    }
+
+
 }
 
+// tdd weryfikuje czy wszystko jest poprawnie
 
 // na koniec robimy refactor kodu
 //  i sprawdzamy czy test nadal przechodzi
