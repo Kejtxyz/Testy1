@@ -129,8 +129,9 @@ public class Person {
 
 
 
-    public void workForWalk(long time , int cash, Animal animal, String place){
-        
+    public void workForWalk(long time , int cash, Animal animal, String place){   // zwierzatka idzie do jakiegos miejsca na spacer
+       animal.goForWalk(place);
+        work(time, cash);
     }
 
 }

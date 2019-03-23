@@ -1,5 +1,6 @@
 package testowe;
 
+import Mockito.Animal;
 import com.sun.istack.internal.NotNull;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -13,10 +14,12 @@ import static jdk.internal.dynalink.support.Guards.isNotNull;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.mockito.Mockito.*;
+
 // testow sie nie dokumentuje
 // nazwa testu ma mowic od czego jest , i sprawdza czy kod jest prawidlowy
 public class PersonTest {
-
+// tworzenie obiektu
     Person person = new Person("Jan Kowalski");
     Person spouse = new Person("Alicja Nowak");
 
@@ -273,6 +276,29 @@ public class PersonTest {
         .isLessThan(20)
         .isGreaterThan(10)
         .isBetween(0,100);
+    }
+
+
+    // mockito
+
+
+    @Test
+    void personShouldGoForWalkWithAnimal(){
+        //arrange / given
+        Animal animalMock = mock(Animal.class);
+        //zdefiniowanie wartosci
+        long time = 100;
+        int cash =  40;
+        String place = "PARK";
+        
+        // act/ when
+        person.workForWalk(100, 40,  animalMock, "PARK");
+        when(animalMock.isHungry()).thenThrow(Exception.class);
+
+        // assert  / then
+        verify(animalMock).goForWalk("PARK");  //  sprawdzamy czy poszla na spacer
+        assertEquals(40, person.getMoney());  // sprawdzamy czy zarobia osoba
+
     }
 }
 
