@@ -23,7 +23,7 @@ public class MessengerTest {
         MailServer mailServerMock = mock(MailServer.class);
         // stub //
         Client clientMock = mock(Client.class);
-        
+
         Messenger messenger = new Messenger(mailServerMock, templateEngineMock);
 
         when(templateEngineMock.prepareMessage(templateMock, clientMock)).thenReturn(messenge);

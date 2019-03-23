@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
@@ -46,41 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1533">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -102,6 +71,11 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testy" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -225,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553336102182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553337142115" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -328,10 +302,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MessengerTest.shouldSendMessenger" />
-        <item itemvalue="JUnit.PersonTest.checkEmailCorrections" />
         <item itemvalue="JUnit.PersonTest.setSpouseCheatingOnPerson" />
         <item itemvalue="JUnit.PersonTest.personShouldGoForWalkWithAnimal" />
+        <item itemvalue="JUnit.PersonTest.checkEmailCorrections" />
+        <item itemvalue="JUnit.MessengerTest.shouldSendMessenger" />
         <item itemvalue="JUnit.AnimalTest.testGoForWalk2" />
       </list>
     </recent_temporary>
@@ -606,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553336077353</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="testy3&#10;dummy&#10;spy&#10;stub&#10;mock spy&#10;messeger&#10;mocki&#10;zmiany 9&#10;zajecia4">
+      <created>1553336875679</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1553336875679</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -677,7 +658,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1 &#10;assume - warunki&#10;&#10;zmiany 10&#10;zajecia2" />
     <MESSAGE value="testy1 &#10;dodanie email do person&#10;testy sprawdzajace&#10;regex&#10;pattern&#10;matches&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;testy parametryzowane&#10;zmiany kolejne&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;test parametryzowany z metoda fabrykujaca&#10;zmiany kolejne&#10; zajecia2" />
@@ -702,7 +682,8 @@
     <MESSAGE value="testy3&#10;stub&#10;zmiany 6&#10;zajecia4" />
     <MESSAGE value="testy3&#10;messeger&#10;mocki&#10;zmiany 7&#10;zajecia4" />
     <MESSAGE value="testy3&#10;stub&#10;messeger&#10;mocki&#10;zmiany 8&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy3&#10;stub&#10;messeger&#10;mocki&#10;zmiany 8&#10;zajecia4" />
+    <MESSAGE value="testy3&#10;dummy&#10;spy&#10;stub&#10;mock spy&#10;messeger&#10;mocki&#10;zmiany 9&#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy3&#10;dummy&#10;spy&#10;stub&#10;mock spy&#10;messeger&#10;mocki&#10;zmiany 9&#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -864,22 +845,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="399">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
