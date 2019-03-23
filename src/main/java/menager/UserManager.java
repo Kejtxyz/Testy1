@@ -14,6 +14,11 @@ public class UserManager {
     }
 
     public boolean login(Person user){
+       if(user == null)
+       {
+           return false;
+       }
+
         network.upload(user);  // mozna zweryfikowac czy zostaly uruchomione, czy user zostal przypisnay do konstruktora w tescie
         database.save(user);
 

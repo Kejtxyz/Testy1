@@ -4,27 +4,41 @@ import menager.Database;
 import menager.Network;
 import menager.UserManager;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 import testowe.Person;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
+@ExtendWith(MockitoExtension.class)
+
 public class ManagerTest {
     // czy majac jakies pola,obiekty, mocki,
     // czy jakies czynnosci zostana wywolane na bazie danych
     String email = "Jan.kowalski@wp.pl";  // DUMMY ,tylklo musi istniec, nie ma interreakcji z nim nigdzie pozniej
-    Database databaseMock = mock(Database.class);
-    Network networkMock = mock(Network.class);
+    // mockowanie na dwa sposoby , @Mock albo  Person userMock = mock(Person.class);
+    @Mock
+    Database databaseMock;
+    @Mock
+    Network networkMock;
+    //  Database databaseMock = mock(Database.class);    to smao co @Mock
+  //  Network networkMock = mock(Network.class);
+
+    @InjectMocks  // wstrzykuje mocki do menagera
+    UserManager userManager;
+
     Person userMock = mock(Person.class);
 
-    UserManager userManager = new UserManager(databaseMock, networkMock);
+    //UserManager userManager = new UserManager(databaseMock, networkMock);
 
     // sprawdza czy uzytkownikowi udalo sie zalogowacł
 
 
     @Test
     void loginSuccess() {
-
         when(userMock.getEmail()).thenReturn(email);
 
         boolean result = userManager.login(userMock);
@@ -60,6 +74,7 @@ public class ManagerTest {
             {"Audi", "TT", "3.0", "5-osobowy"},
             {"Ford", "Focus", "1.8", "5-osobowy"},
     };
+
 
 }
 

@@ -35,6 +35,8 @@
 
 
 
+// na etapie testow widzimy poprawnosc kodu //
+
 //**/
 //
 //
