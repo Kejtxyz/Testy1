@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLambdazawansowanaZadania/JavaLambdazawansowanaZadania.iml" afterDir="false" />
@@ -48,7 +49,10 @@
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/MassageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Klasaabstrakcyjna/src/abstrakcyjnaKlasa/smsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documentMenagmentSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exampletest/src/test/java/pl/sda/exampletests/test1przyklad/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
@@ -104,44 +108,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="317" selection-start-line="317" selection-end-line="317" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="189">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -156,13 +139,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,31 +170,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="252">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -243,13 +214,14 @@
         <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messenger/Templete.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Messenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/Templete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java" />
       </list>
     </option>
   </component>
@@ -336,6 +308,15 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testowe" type="462c0819:PsiDirectoryNode" />
               <item name="Mockito" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -345,7 +326,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553334521878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553335428231" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -365,39 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.setSpouseCheatingOnPerson">
-    <configuration name="AnimalTest.testGoForWalk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.Mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe.Mockito" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
-      <option name="METHOD_NAME" value="testGoForWalk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalTest.testGoForWalk1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.Mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe.Mockito" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
-      <option name="METHOD_NAME" value="testGoForWalk1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MessengerTest.shouldSendMessenger">
     <configuration name="AnimalTest.testGoForWalk2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -409,6 +358,38 @@
       <option name="PACKAGE_NAME" value="testowe.Mockito" />
       <option name="MAIN_CLASS_NAME" value="testowe.Mockito.AnimalTest" />
       <option name="METHOD_NAME" value="testGoForWalk2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessengerTest.shouldSendMessenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.messenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe.messenger" />
+      <option name="MAIN_CLASS_NAME" value="testowe.messenger.MessengerTest" />
+      <option name="METHOD_NAME" value="shouldSendMessenger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.checkEmailCorrections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testowe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testowe" />
+      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
+      <option name="METHOD_NAME" value="checkEmailCorrections(java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -448,11 +429,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MessengerTest.shouldSendMessenger" />
+        <item itemvalue="JUnit.PersonTest.checkEmailCorrections" />
         <item itemvalue="JUnit.PersonTest.setSpouseCheatingOnPerson" />
         <item itemvalue="JUnit.PersonTest.personShouldGoForWalkWithAnimal" />
         <item itemvalue="JUnit.AnimalTest.testGoForWalk2" />
-        <item itemvalue="JUnit.AnimalTest.testGoForWalk1" />
-        <item itemvalue="JUnit.AnimalTest.testGoForWalk" />
       </list>
     </recent_temporary>
   </component>
@@ -691,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553334558518</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="testy1&#10;Messenger&#10;zmiany 5 &#10;zajecia4">
+      <created>1553334740610</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1553334740610</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,7 +727,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -749,7 +737,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2701613" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32258064" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32258064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -762,7 +750,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1 &#10;zmiany 6&#10;stworzneie obiektow wywolywanych przed testami&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;Refactor codu&#10;Stworznie pakietów&#10;przeniesienie do innych pakietow&#10;zmiany 7&#10; zajecia2" />
     <MESSAGE value="testy1 &#10;wprowadzone sprawdzenie minusowych piniedzy&#10;stworzenie wyjatku&#10;zmiany 8&#10;zajecia2" />
     <MESSAGE value="testy1&#10;dodanie metody exception&#10;zmiany 9&#10;zajecia2" />
@@ -787,7 +774,8 @@
     <MESSAGE value="testy3&#10;mockito &#10;mockowanie&#10;zmiany 2&#10;zajecia4" />
     <MESSAGE value="testy3&#10;Mockito&#10;Wykorzystanie mockow&#10;&#10;&#10;zmiany 3 &#10;zajecia4" />
     <MESSAGE value="testy1&#10;Mocki&#10;Nowe zadanie&#10;Messenger&#10;&#10;zmiany 4&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;Mocki&#10;Nowe zadanie&#10;Messenger&#10;&#10;zmiany 4&#10;zajecia4" />
+    <MESSAGE value="testy1&#10;Messenger&#10;zmiany 5 &#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy1&#10;Messenger&#10;zmiany 5 &#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -797,17 +785,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/zadaniedomowe/Zadanie1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -870,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -899,6 +869,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
@@ -911,18 +895,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="317" selection-start-line="317" selection-end-line="317" />
+        <state relative-caret-position="231">
+          <caret line="302" lean-forward="true" selection-start-line="302" selection-end-line="302" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testowe/MinusMoneyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -933,17 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#75#76#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/messenger/MailServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -951,17 +942,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="252">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messenger/Messenger.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="189">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

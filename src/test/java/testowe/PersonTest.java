@@ -279,7 +279,8 @@ public class PersonTest {
     }
 
 
-    // mockito
+
+    //***   mockito ****//
 
 
     @Test
@@ -298,7 +299,6 @@ public class PersonTest {
         // assert  / then
         verify(animalMock).goForWalk("PARK");  //  sprawdzamy czy poszla na spacer
         assertEquals(40, person.getMoney());  // sprawdzamy czy zarobia osoba
-
     }
 
     @Test
@@ -309,20 +309,13 @@ public class PersonTest {
         person.marriage(newSpouseMock);   // czy osoba wychodzi za nowego malzonka
         //   when(newSpouseMock.isMarriedWithAnotherPerson(person)).thenReturn(true);  // jesli metoda byla by nie implementowana, to asssertem mozemy sprawdzic czy istnieje
 
-
         // assert  /  then
         verify(newSpouseMock).marriage(person);
         assertFalse(newSpouseMock.isMarriedWithAnotherPerson(person));
     }
-
-
-
-
-
-
-
-    }
+    
 }
+
 
 
 
