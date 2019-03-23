@@ -27,7 +27,6 @@ public class PersonTest {
     @Test
     void constructorShouldSetName() {
 
-
         Assertions.assertEquals("Jan Kowalski", person.getName()); // oczewikana wartosc , i meotde pobierana
     }
 
@@ -313,7 +312,7 @@ public class PersonTest {
         verify(newSpouseMock).marriage(person);
         assertFalse(newSpouseMock.isMarriedWithAnotherPerson(person));
     }
-    
+
 }
 
 

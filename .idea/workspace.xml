@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPP" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" afterDir="false" />
@@ -17,8 +18,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menager/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menager/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MianNotatka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
@@ -47,10 +49,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#626#627#0" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
@@ -59,11 +73,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="257">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,9 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Mockito/TooManyTimesHungryException.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Client.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/Templete.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/MailServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/messenger/MessengerTest.java" />
@@ -122,9 +164,12 @@
         <option value="$PROJECT_DIR$/src/main/java/menager/Database.java" />
         <option value="$PROJECT_DIR$/src/main/java/messenger/TemplateEngine.java" />
         <option value="$PROJECT_DIR$/src/test/java/testowe/PrimeNumbersTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/menager/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java" />
       </list>
     </option>
   </component>
@@ -186,6 +231,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PowerMockJunit4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553341828612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553342449683" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -242,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManagerTest.loginFailure">
+  <component name="RunManager" selected="JUnit.PowerMockPersonTest.constructorShouldSetName">
     <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -290,22 +343,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.personShouldGoForWalkWithAnimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testowe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testowe" />
-      <option name="MAIN_CLASS_NAME" value="testowe.PersonTest" />
-      <option name="METHOD_NAME" value="personShouldGoForWalkWithAnimal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonTest.setSpouseCheatingOnPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
@@ -322,13 +359,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PowerMockPersonTest.constructorShouldSetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PowerMockJunit4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PowerMockJunit4" />
+      <option name="MAIN_CLASS_NAME" value="PowerMockJunit4.PowerMockPersonTest" />
+      <option name="METHOD_NAME" value="constructorShouldSetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PowerMockPersonTest.constructorShouldSetName" />
         <item itemvalue="JUnit.ManagerTest.loginFailure" />
         <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="JUnit.ManagerTest.loginSuccess" />
         <item itemvalue="JUnit.PersonTest.setSpouseCheatingOnPerson" />
-        <item itemvalue="JUnit.PersonTest.personShouldGoForWalkWithAnimal" />
       </list>
     </recent_temporary>
   </component>
@@ -637,13 +690,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553340686352</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="testy5&#10;FAKE&#10;zmiany 3&#10;zajecia4">
+      <created>1553341883918</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1553341883918</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnimalTest_testGoForWalk1 - 2019.03.23 at 10h 10m 34s.xml">
-      <configuration name="AnimalTest.testGoForWalk1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnimalTest_testGoForWalk2 - 2019.03.23 at 10h 11m 30s.xml">
       <configuration name="AnimalTest.testGoForWalk2" configurationId="JUnit" />
     </history-entry>
@@ -670,6 +727,9 @@
     </history-entry>
     <history-entry file="ManagerTest - 2019.03.23 at 12h 48m 33s.xml">
       <configuration name="ManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagerTest_loginFailure - 2019.03.23 at 12h 50m 37s.xml">
+      <configuration name="ManagerTest.loginFailure" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +768,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 1 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;parametryzowane&#10;+ zadanie domowe&#10;zmiany 2 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe Java&#10;substring test1&#10;zmiany 3&#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
@@ -733,7 +792,8 @@
     <MESSAGE value="testy4&#10;manager&#10;zmiany 2&#10;zajecia4" />
     <MESSAGE value="testy5&#10;FAKE&#10;zmiany 1&#10;zajecia4" />
     <MESSAGE value="testy5&#10;FAKE&#10;zmiany 2&#10;zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy5&#10;FAKE&#10;zmiany 2&#10;zajecia4" />
+    <MESSAGE value="testy5&#10;FAKE&#10;zmiany 3&#10;zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy5&#10;FAKE&#10;zmiany 3&#10;zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -795,13 +855,6 @@
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -894,16 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Mockito/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1533">
@@ -921,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menager/Network.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -938,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
@@ -948,8 +984,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="257">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

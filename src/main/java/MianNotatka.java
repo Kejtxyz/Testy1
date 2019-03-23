@@ -31,12 +31,20 @@
 //
 
 
-// fake - -do zlozonych danych, i zlozonych struktur
+// FAKE - -do zlozonych danych, i zlozonych struktur
 
 
 
 // na etapie testow widzimy poprawnosc kodu //
 
+
+
+
+//  POWERMOCK    //
+//    PowerMock - do mockowania bibliotek prywatnych i statycznych
+//  whitebox
+//
+ // junit -wersja 4
 //**/
 //
 //

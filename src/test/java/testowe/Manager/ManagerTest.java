@@ -75,6 +75,5 @@ public class ManagerTest {
             {"Ford", "Focus", "1.8", "5-osobowy"},
     };
 
-
 }
 
