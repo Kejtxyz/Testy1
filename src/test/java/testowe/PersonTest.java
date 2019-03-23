@@ -283,21 +283,43 @@ public class PersonTest {
 
 
     @Test
-    void personShouldGoForWalkWithAnimal(){
+    void personShouldGoForWalkWithAnimal() {
         //arrange / given
         Animal animalMock = mock(Animal.class);
         //zdefiniowanie wartosci
         long time = 100;
-        int cash =  40;
+        int cash = 40;
         String place = "PARK";
-        
+
         // act/ when
-        person.workForWalk(100, 40,  animalMock, "PARK");
+        person.workForWalk(100, 40, animalMock, "PARK");
         when(animalMock.isHungry()).thenThrow(Exception.class);
 
         // assert  / then
         verify(animalMock).goForWalk("PARK");  //  sprawdzamy czy poszla na spacer
         assertEquals(40, person.getMoney());  // sprawdzamy czy zarobia osoba
+
+    }
+
+    @Test
+    void setSpouseCheatingOnPerson() {
+        // arrange / given
+        Person newSpouseMock = mock(Person.class);
+        // act / when
+        person.marriage(newSpouseMock);   // czy osoba wychodzi za nowego malzonka
+        //   when(newSpouseMock.isMarriedWithAnotherPerson(person)).thenReturn(true);  // jesli metoda byla by nie implementowana, to asssertem mozemy sprawdzic czy istnieje
+
+
+        // assert  /  then
+        verify(newSpouseMock).marriage(person);
+        assertFalse(newSpouseMock.isMarriedWithAnotherPerson(person));
+    }
+
+
+
+
+
+
 
     }
 }

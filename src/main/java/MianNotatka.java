@@ -31,6 +31,10 @@
 //
 
 
+// fake - -do zlozonych danych, i zlozonych struktur
+
+
+
 //**/
 //
 //
