@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfd88be-26d1-462f-8403-29e56ab1a366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDD/notatka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GitGroup/TestGit" beforeDir="false" afterPath="$PROJECT_DIR$/../GitGroup/TestGit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPP" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/.idea/vcs.xml" afterDir="false" />
@@ -13,14 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaZawansowana/src/zajecia1/samochodDoGierki/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MianNotatka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MianNotatka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testowe/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testowe/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testowe/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/artifacts/zabawa_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/exercise.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.idea/misc.xml" afterDir="false" />
@@ -49,33 +48,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/PersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="140" selection-start-line="140" selection-end-line="140" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="189">
               <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#626#627#0" expanded="true" />
@@ -86,25 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menager/Network.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#0#1608#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -112,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="324">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -121,12 +81,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="399">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TDD/notatka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +159,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -187,6 +210,13 @@
         <option value="$PROJECT_DIR$/src/main/java/testowe/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MianNotatka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/MainNOtatka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/MainNewsLetterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletterTest/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java" />
       </list>
     </option>
   </component>
@@ -235,7 +265,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menager" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
@@ -243,23 +273,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="messenger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Mockito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="newsletter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +303,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testowe" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="newsletterTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
@@ -297,25 +321,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testowe" type="462c0819:PsiDirectoryNode" />
-              <item name="Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testowe" type="462c0819:PsiDirectoryNode" />
-              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testowe" type="462c0819:PsiDirectoryNode" />
-              <item name="Mockito" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,13 +329,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553346896386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553350476577" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/TDD/tdd" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TDD.tdd.newsletterTest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -344,49 +355,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PowerMockPersonTest.testHowMuchEarnByPriveMethod">
-    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NewsLetterServiceTest.subscribedClientShouldNotReciveMessage">
+    <configuration name="NewsLetterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.Manager.*" />
+          <option name="PATTERN" value="TDD.tdd.newsletterTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe.Manager" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
+      <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest.loginFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsLetterServiceTest.messageShouldBeSendToManySubscribers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.Manager.*" />
+          <option name="PATTERN" value="TDD.tdd.newsletterTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe.Manager" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
-      <option name="METHOD_NAME" value="loginFailure" />
+      <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
+      <option name="METHOD_NAME" value="messageShouldBeSendToManySubscribers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest.loginSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testy.Testy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testowe.Manager.*" />
+          <option name="PATTERN" value="TDD.tdd.newsletterTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testowe.Manager" />
-      <option name="MAIN_CLASS_NAME" value="testowe.Manager.ManagerTest" />
-      <option name="METHOD_NAME" value="loginSuccess" />
+      <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
+      <option name="METHOD_NAME" value="subscribedClientShouldNotReciveMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testy.Testy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDD.tdd.newsletterTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDD.tdd.newsletterTest" />
+      <option name="MAIN_CLASS_NAME" value="TDD.tdd.newsletterTest.NewsLetterServiceTest" />
+      <option name="METHOD_NAME" value="subscribedClientShouldReciveMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -408,29 +435,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerMockPersonTest.testHowMuchEarnByPriveMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testy.Testy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PowerMockJunit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PowerMockJunit4" />
-      <option name="MAIN_CLASS_NAME" value="PowerMockJunit4.PowerMockPersonTest" />
-      <option name="METHOD_NAME" value="testHowMuchEarnByPriveMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PowerMockPersonTest.testHowMuchEarnByPriveMethod" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" />
+        <item itemvalue="JUnit.NewsLetterServiceTest" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.subscribedClientShouldReciveMessage" />
+        <item itemvalue="JUnit.NewsLetterServiceTest.messageShouldBeSendToManySubscribers" />
         <item itemvalue="JUnit.PowerMockPersonTest.constructorShouldSetName" />
-        <item itemvalue="JUnit.ManagerTest.loginFailure" />
-        <item itemvalue="JUnit.ManagerTest" />
-        <item itemvalue="JUnit.ManagerTest.loginSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -753,46 +764,53 @@
       <option name="project" value="LOCAL" />
       <updated>1553342515398</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="testy6&#10;POWERMOCK&#10;private - mocki&#10;                             JUNIT WERSJA 4&#10;                         PowerMock    &#10;        zmiany 2 final&#10;        zajecia4">
+      <created>1553347542131</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1553347542131</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_personShouldGoForWalkWithAnimal - 2019.03.23 at 10h 23m 03s.xml">
-      <configuration name="PersonTest.personShouldGoForWalkWithAnimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonTest_setSpouseCheatingOnPerson - 2019.03.23 at 10h 34m 21s.xml">
-      <configuration name="PersonTest.setSpouseCheatingOnPerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest_loginSuccess - 2019.03.23 at 11h 56m 42s.xml">
-      <configuration name="ManagerTest.loginSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest_loginFailure - 2019.03.23 at 12h 31m 04s.xml">
-      <configuration name="ManagerTest.loginFailure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.03.23 at 12h 45m 50s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest - 2019.03.23 at 12h 48m 33s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ManagerTest_loginFailure - 2019.03.23 at 12h 50m 37s.xml">
-      <configuration name="ManagerTest.loginFailure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PowerMockPersonTest_constructorShouldSetName - 2019.03.23 at 13h 01m 53s.xml">
-      <configuration name="PowerMockPersonTest.constructorShouldSetName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PowerMockPersonTest_constructorShouldSetName - 2019.03.23 at 13h 52m 49s.xml">
-      <configuration name="PowerMockPersonTest.constructorShouldSetName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PowerMockPersonTest_testHowMuchEarnByPriveMethod - 2019.03.23 at 14h 15m 12s.xml">
       <configuration name="PowerMockPersonTest.testHowMuchEarnByPriveMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PowerMockPersonTest_constructorShouldSetName - 2019.03.23 at 14h 26m 48s.xml">
+      <configuration name="PowerMockPersonTest.constructorShouldSetName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_subscribedClientShouldReciveMessage - 2019.03.23 at 14h 52m 42s.xml">
+      <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_subscribedClientShouldReciveMessage - 2019.03.23 at 14h 53m 24s.xml">
+      <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest - 2019.03.23 at 14h 53m 52s.xml">
+      <configuration name="NewsLetterServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_messageShouldBeSendToManySubscribers - 2019.03.23 at 15h 06m 59s.xml">
+      <configuration name="NewsLetterServiceTest.messageShouldBeSendToManySubscribers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_subscribedClientShouldReciveMessage - 2019.03.23 at 15h 07m 14s.xml">
+      <configuration name="NewsLetterServiceTest.subscribedClientShouldReciveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest - 2019.03.23 at 15h 08m 49s.xml">
+      <configuration name="NewsLetterServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_subscribedClientShouldNotReciveMessage - 2019.03.23 at 15h 12m 14s.xml">
+      <configuration name="NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsLetterServiceTest_subscribedClientShouldNotReciveMessage - 2019.03.23 at 15h 14m 45s.xml">
+      <configuration name="NewsLetterServiceTest.subscribedClientShouldNotReciveMessage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22043702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -801,7 +819,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -824,7 +842,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testy1&#10;testy jednostkowe Java&#10;substring test1&#10;zmiany 3&#10;zajecia3" />
     <MESSAGE value="testy1&#10;testy jednostkowe&#10;Testy substring &#10;Java&#10;zmiany 4 &#10;zajecia3" />
     <MESSAGE value="testy1&#10;substring&#10;java&#10;zmiany 4&#10;zajecia3" />
     <MESSAGE value="testy1&#10;kolejne &#10;substring&#10;zmiany 5 &#10;zajecia3" />
@@ -849,7 +866,8 @@
     <MESSAGE value="testy5&#10;FAKE&#10;zmiany 2&#10;zajecia4" />
     <MESSAGE value="testy5&#10;FAKE&#10;zmiany 3&#10;zajecia4" />
     <MESSAGE value="testy6&#10;POWERMOCK&#10;private - mocki&#10;        JUNIT ERSJA 4&#10;        zmiany 1&#10;        zajecia4" />
-    <option name="LAST_COMMIT_MESSAGE" value="testy6&#10;POWERMOCK&#10;private - mocki&#10;        JUNIT ERSJA 4&#10;        zmiany 1&#10;        zajecia4" />
+    <MESSAGE value="testy6&#10;POWERMOCK&#10;private - mocki&#10;                             JUNIT WERSJA 4&#10;                         PowerMock    &#10;        zmiany 2 final&#10;        zajecia4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy6&#10;POWERMOCK&#10;private - mocki&#10;                             JUNIT WERSJA 4&#10;                         PowerMock    &#10;        zmiany 2 final&#10;        zajecia4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -964,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menager/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Messenger/MessengerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1010,24 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menager/Network.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testowe/Manager/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -1048,13 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testowe/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1065,10 +1051,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#1608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menager/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menager/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menager/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PowerMockJunit4/PowerMockPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="399">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
@@ -1077,12 +1105,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MianNotatka.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/MainNotatka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="273">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TDD/notatka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletterTest/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TDD/tdd/newsletter/NewsLetterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#0#1608#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TDD/tdd/newsletterTest/NewsLetterServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
